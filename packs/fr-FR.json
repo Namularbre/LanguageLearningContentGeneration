@@ -1,0 +1,1791 @@
+{
+  "format": 1,
+  "languageCode": "fr-FR",
+  "version": 1,
+  "lemmas": [
+    {
+      "id": "fr:le",
+      "text": "le",
+      "partOfSpeech": "ARTICLE",
+      "meaning": {"en": "the", "ro": "articolul hotărât"},
+      "frequencyRank": 1,
+      "ipa": "lə"
+    },
+    {
+      "id": "fr:de",
+      "text": "de",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "of, from", "ro": "de, din"},
+      "frequencyRank": 2,
+      "ipa": "də"
+    },
+    {
+      "id": "fr:un",
+      "text": "un",
+      "partOfSpeech": "ARTICLE",
+      "meaning": {"en": "a, an", "ro": "un, o"},
+      "frequencyRank": 3,
+      "ipa": "œ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:à",
+      "text": "à",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "to, at", "ro": "la"},
+      "frequencyRank": 4,
+      "ipa": "a"
+    },
+    {
+      "id": "fr:et",
+      "text": "et",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "and", "ro": "și"},
+      "frequencyRank": 5,
+      "ipa": "e"
+    },
+    {
+      "id": "fr:il",
+      "text": "il",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "he, it", "ro": "el"},
+      "frequencyRank": 6,
+      "ipa": "il"
+    },
+    {
+      "id": "fr:vous",
+      "text": "vous",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "you (plural or polite)", "ro": "voi, dumneavoastră"},
+      "frequencyRank": 7,
+      "ipa": "vu"
+    },
+    {
+      "id": "fr:lui",
+      "text": "lui",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "(to) him, (to) her", "ro": "lui, ei"},
+      "frequencyRank": 8,
+      "ipa": "lɥi"
+    },
+    {
+      "id": "fr:ce",
+      "text": "ce",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "this, that", "ro": "acest, această"},
+      "frequencyRank": 9,
+      "ipa": "sə"
+    },
+    {
+      "id": "fr:si",
+      "text": "si",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "if", "ro": "dacă"},
+      "otherMeanings": {"en": "s'il vous plaît = please", "ro": "s'il vous plaît = vă rog"},
+      "frequencyRank": 10,
+      "ipa": "si"
+    },
+    {
+      "id": "fr:aller",
+      "text": "aller",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to go", "ro": "a merge"},
+      "frequencyRank": 11,
+      "ipa": "ale"
+    },
+    {
+      "id": "fr:partir",
+      "text": "partir",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to leave", "ro": "a pleca"},
+      "frequencyRank": 12,
+      "ipa": "paʁtiʁ",
+      "pronunciationNote": {
+        "en": "The French r is made at the back of the throat.",
+        "fr": "Le r français se prononce au fond de la gorge.",
+        "ro": "r-ul francez se pronunță în fundul gâtului."
+      }
+    },
+    {
+      "id": "fr:acheter",
+      "text": "acheter",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to buy", "ro": "a cumpăra"},
+      "frequencyRank": 13,
+      "ipa": "aʃte"
+    },
+    {
+      "id": "fr:sourire",
+      "text": "sourire",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to smile", "ro": "a zâmbi"},
+      "frequencyRank": 14,
+      "ipa": "suʁiʁ",
+      "pronunciationNote": {
+        "en": "The French r is made at the back of the throat.",
+        "fr": "Le r français se prononce au fond de la gorge.",
+        "ro": "r-ul francez se pronunță în fundul gâtului."
+      }
+    },
+    {
+      "id": "fr:rentrer",
+      "text": "rentrer",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to go back home", "ro": "a se întoarce acasă"},
+      "frequencyRank": 15,
+      "ipa": "ʁɑ̃tʁe",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:plaire",
+      "text": "plaire",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to please", "ro": "a plăcea"},
+      "otherMeanings": {"en": "s'il vous plaît = please", "ro": "s'il vous plaît = vă rog"},
+      "frequencyRank": 16,
+      "ipa": "plɛʁ"
+    },
+    {
+      "id": "fr:chaque",
+      "text": "chaque",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "every, each", "ro": "fiecare"},
+      "frequencyRank": 17,
+      "ipa": "ʃak"
+    },
+    {
+      "id": "fr:samedi",
+      "text": "samedi",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "Saturday", "ro": "sâmbătă"},
+      "frequencyRank": 18,
+      "ipa": "samdi"
+    },
+    {
+      "id": "fr:marché",
+      "text": "marché",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "market", "ro": "piață"},
+      "frequencyRank": 19,
+      "ipa": "maʁʃe"
+    },
+    {
+      "id": "fr:marchand",
+      "text": "marchand",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "seller, merchant", "ro": "vânzător, negustor"},
+      "frequencyRank": 20,
+      "ipa": "maʁʃɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:pomme",
+      "text": "pomme",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "apple", "ro": "măr"},
+      "frequencyRank": 21,
+      "ipa": "pɔm"
+    },
+    {
+      "id": "fr:pain",
+      "text": "pain",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "bread", "ro": "pâine"},
+      "frequencyRank": 22,
+      "ipa": "pɛ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:fromage",
+      "text": "fromage",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "cheese", "ro": "brânză"},
+      "frequencyRank": 23,
+      "ipa": "fʁɔmaʒ"
+    },
+    {
+      "id": "fr:bonjour",
+      "text": "bonjour",
+      "partOfSpeech": "INTERJECTION",
+      "meaning": {"en": "hello, good morning", "ro": "bună ziua"},
+      "frequencyRank": 24,
+      "ipa": "bɔ̃ʒuʁ",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:maison",
+      "text": "maison",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "house, home", "ro": "casă"},
+      "frequencyRank": 25,
+      "ipa": "mɛzɔ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:avec",
+      "text": "avec",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "with", "ro": "cu"},
+      "frequencyRank": 26,
+      "ipa": "avɛk"
+    },
+    {
+      "id": "fr:grand",
+      "text": "grand",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "big, tall", "ro": "mare, înalt"},
+      "frequencyRank": 27,
+      "ipa": "ɡʁɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:sac",
+      "text": "sac",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "bag", "ro": "sac, geantă"},
+      "frequencyRank": 28,
+      "ipa": "sak"
+    },
+    {
+      "id": "fr:billet",
+      "text": "billet",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "ticket", "ro": "bilet"},
+      "frequencyRank": 29,
+      "ipa": "bijɛ"
+    },
+    {
+      "id": "fr:pour",
+      "text": "pour",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "for", "ro": "pentru"},
+      "frequencyRank": 30,
+      "ipa": "puʁ"
+    },
+    {
+      "id": "fr:matin",
+      "text": "matin",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "morning", "ro": "dimineață"},
+      "frequencyRank": 31,
+      "ipa": "matɛ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:oui",
+      "text": "oui",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "yes", "ro": "da"},
+      "frequencyRank": 32,
+      "ipa": "wi"
+    },
+    {
+      "id": "fr:quel",
+      "text": "quel",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "which, what", "ro": "care, ce"},
+      "frequencyRank": 33,
+      "ipa": "kɛl"
+    },
+    {
+      "id": "fr:heure",
+      "text": "heure",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "hour; o'clock", "ro": "oră"},
+      "frequencyRank": 34,
+      "ipa": "œʁ"
+    },
+    {
+      "id": "fr:train",
+      "text": "train",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "train", "ro": "tren"},
+      "frequencyRank": 35,
+      "ipa": "tʁɛ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:dix",
+      "text": "dix",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"en": "ten", "ro": "zece"},
+      "frequencyRank": 36,
+      "ipa": "dis"
+    },
+    {
+      "id": "fr:merci",
+      "text": "merci",
+      "partOfSpeech": "INTERJECTION",
+      "meaning": {"en": "thank you", "ro": "mulțumesc"},
+      "frequencyRank": 37,
+      "ipa": "mɛʁsi"
+    },
+    {
+      "id": "fr:beaucoup",
+      "text": "beaucoup",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "a lot, very much", "ro": "mult"},
+      "frequencyRank": 38,
+      "ipa": "boku"
+    },
+    {
+      "id": "fr:café",
+      "text": "café",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "coffee; café", "ro": "cafea; cafenea"},
+      "frequencyRank": 39,
+      "ipa": "kafe"
+    },
+    {
+      "id": "fr:lait",
+      "text": "lait",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "milk", "ro": "lapte"},
+      "frequencyRank": 40,
+      "ipa": "lɛ"
+    },
+    {
+      "id": "fr:non",
+      "text": "non",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "no", "ro": "nu"},
+      "frequencyRank": 41,
+      "ipa": "nɔ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:croissant",
+      "text": "croissant",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "croissant", "ro": "corn (croissant)"},
+      "frequencyRank": 42,
+      "ipa": "kʁwasɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:aussi",
+      "text": "aussi",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "also, too", "ro": "și, de asemenea"},
+      "frequencyRank": 43,
+      "ipa": "osi"
+    },
+    {
+      "id": "fr:voilà",
+      "text": "voilà",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "here you are, there", "ro": "poftiți, iată"},
+      "frequencyRank": 44,
+      "ipa": "vwala"
+    },
+    {
+      "id": "fr:ça",
+      "text": "ça",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "that, it", "ro": "asta"},
+      "frequencyRank": 45,
+      "ipa": "sa"
+    },
+    {
+      "id": "fr:faire",
+      "text": "faire",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to do, to make", "ro": "a face"},
+      "otherMeanings": {"en": "ça fait… = that comes to…", "ro": "ça fait… = face…"},
+      "frequencyRank": 46,
+      "ipa": "fɛʁ"
+    },
+    {
+      "id": "fr:trois",
+      "text": "trois",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"en": "three", "ro": "trei"},
+      "frequencyRank": 47,
+      "ipa": "tʁwa",
+      "pronunciationNote": {
+        "en": "The French r is made at the back of the throat.",
+        "fr": "Le r français se prononce au fond de la gorge.",
+        "ro": "r-ul francez se pronunță în fundul gâtului."
+      }
+    },
+    {
+      "id": "fr:euro",
+      "text": "euro",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "euro", "ro": "euro"},
+      "frequencyRank": 48,
+      "ipa": "øʁo"
+    },
+    {
+      "id": "fr:bon",
+      "text": "bon",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "good", "ro": "bun"},
+      "frequencyRank": 49,
+      "ipa": "bɔ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:journée",
+      "text": "journée",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "day", "ro": "zi"},
+      "frequencyRank": 50,
+      "ipa": "ʒuʁne"
+    },
+    {
+      "id": "fr:soir",
+      "text": "soir",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "evening", "ro": "seară"},
+      "frequencyRank": 51,
+      "ipa": "swaʁ"
+    },
+    {
+      "id": "fr:promener",
+      "text": "promener",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to walk (a dog), to take for a walk", "ro": "a plimba"},
+      "frequencyRank": 52,
+      "ipa": "pʁɔmne"
+    },
+    {
+      "id": "fr:son",
+      "text": "son",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "his, her, its", "ro": "său, sa"},
+      "frequencyRank": 53,
+      "ipa": "sɔ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:chien",
+      "text": "chien",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "dog", "ro": "câine"},
+      "frequencyRank": 54,
+      "ipa": "ʃjɛ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:parc",
+      "text": "parc",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "park", "ro": "parc"},
+      "frequencyRank": 55,
+      "ipa": "paʁk"
+    },
+    {
+      "id": "fr:courir",
+      "text": "courir",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to run", "ro": "a alerga"},
+      "frequencyRank": 56,
+      "ipa": "kuʁiʁ",
+      "pronunciationNote": {
+        "en": "The French r is made at the back of the throat.",
+        "fr": "Le r français se prononce au fond de la gorge.",
+        "ro": "r-ul francez se pronunță în fundul gâtului."
+      }
+    },
+    {
+      "id": "fr:dans",
+      "text": "dans",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "in", "ro": "în"},
+      "frequencyRank": 57,
+      "ipa": "dɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:herbe",
+      "text": "herbe",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "grass", "ro": "iarbă"},
+      "frequencyRank": 58,
+      "ipa": "ɛʁb"
+    },
+    {
+      "id": "fr:lire",
+      "text": "lire",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to read", "ro": "a citi"},
+      "frequencyRank": 59,
+      "ipa": "liʁ"
+    },
+    {
+      "id": "fr:livre",
+      "text": "livre",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "book", "ro": "carte"},
+      "frequencyRank": 60,
+      "ipa": "livʁ"
+    },
+    {
+      "id": "fr:sur",
+      "text": "sur",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "on", "ro": "pe"},
+      "frequencyRank": 61,
+      "ipa": "syʁ"
+    },
+    {
+      "id": "fr:banc",
+      "text": "banc",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "bench", "ro": "bancă"},
+      "frequencyRank": 62,
+      "ipa": "bɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:ensuite",
+      "text": "ensuite",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "then, afterwards", "ro": "apoi"},
+      "frequencyRank": 63,
+      "ipa": "ɑ̃sɥit",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:être",
+      "text": "être",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to be", "ro": "a fi"},
+      "otherMeanings": {"en": "auxiliary of the passé composé", "ro": "auxiliar pentru passé composé"},
+      "frequencyRank": 64,
+      "ipa": "ɛtʁ"
+    },
+    {
+      "id": "fr:avoir",
+      "text": "avoir",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to have", "ro": "a avea"},
+      "otherMeanings": {"en": "auxiliary of the passé composé", "ro": "auxiliar pentru passé composé"},
+      "frequencyRank": 65,
+      "ipa": "avwaʁ"
+    },
+    {
+      "id": "fr:dernier",
+      "text": "dernier",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "last", "ro": "trecut, ultimul"},
+      "frequencyRank": 66,
+      "ipa": "dɛʁnje"
+    },
+    {
+      "id": "fr:en",
+      "text": "en",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "in, by (en train = by train)", "ro": "în, cu (en train = cu trenul)"},
+      "frequencyRank": 67,
+      "ipa": "ɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:visiter",
+      "text": "visiter",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to visit", "ro": "a vizita"},
+      "frequencyRank": 68,
+      "ipa": "vizite"
+    },
+    {
+      "id": "fr:vieux",
+      "text": "vieux",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "old", "ro": "vechi, bătrân"},
+      "frequencyRank": 69,
+      "ipa": "vjø"
+    },
+    {
+      "id": "fr:ville",
+      "text": "ville",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "town, city", "ro": "oraș"},
+      "frequencyRank": 70,
+      "ipa": "vil"
+    },
+    {
+      "id": "fr:sœur",
+      "text": "sœur",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "sister", "ro": "soră"},
+      "frequencyRank": 71,
+      "ipa": "sœʁ"
+    },
+    {
+      "id": "fr:manger",
+      "text": "manger",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to eat", "ro": "a mânca"},
+      "frequencyRank": 72,
+      "ipa": "mɑ̃ʒe",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:petit",
+      "text": "petit",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "small, little", "ro": "mic"},
+      "frequencyRank": 73,
+      "ipa": "pəti"
+    },
+    {
+      "id": "fr:restaurant",
+      "text": "restaurant",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "restaurant", "ro": "restaurant"},
+      "frequencyRank": 74,
+      "ipa": "ʁɛstɔʁɑ̃",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:dimanche",
+      "text": "dimanche",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "Sunday", "ro": "duminică"},
+      "frequencyRank": 75,
+      "ipa": "dimɑ̃ʃ",
+      "pronunciationNote": {
+        "en": "Nasal vowel: the n is not pronounced, the air goes through the nose.",
+        "fr": "Voyelle nasale : on ne prononce pas le n.",
+        "ro": "Vocală nazală: n nu se pronunță, aerul trece pe nas."
+      }
+    },
+    {
+      "id": "fr:pleuvoir",
+      "text": "pleuvoir",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to rain", "ro": "a ploua"},
+      "frequencyRank": 76,
+      "ipa": "pløvwaʁ"
+    },
+    {
+      "id": "fr:alors",
+      "text": "alors",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "so, then", "ro": "așa că, atunci"},
+      "frequencyRank": 77,
+      "ipa": "alɔʁ"
+    },
+    {
+      "id": "fr:tôt",
+      "text": "tôt",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "early", "ro": "devreme"},
+      "frequencyRank": 78,
+      "ipa": "to"
+    }
+  ],
+  "texts": [
+    {
+      "id": "fr-market",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "Le marché du samedi",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Chaque", "lemma": "fr:chaque"},
+            {"text": " "},
+            {"text": "samedi", "lemma": "fr:samedi"},
+            {"text": ", "},
+            {"text": "Paul"},
+            {"text": " "},
+            {
+              "text": "va",
+              "lemma": "fr:aller",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "au", "lemma": "fr:à", "formNote": {"en": "à + le", "fr": "à + le", "ro": "à + le"}},
+            {"text": " "},
+            {"text": "marché", "lemma": "fr:marché"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Every Saturday, Paul goes to the market.", "ro": "În fiecare sâmbătă, Paul merge la piață."}
+        },
+        {
+          "tokens": [
+            {"text": "Il", "lemma": "fr:il"},
+            {"text": " "},
+            {
+              "text": "achète",
+              "lemma": "fr:acheter",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "des",
+              "lemma": "fr:un",
+              "formNote": {"en": "plural: some", "fr": "pluriel", "ro": "plural: niște"}
+            },
+            {"text": " "},
+            {
+              "text": "pommes",
+              "lemma": "fr:pomme",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": ", "},
+            {
+              "text": "du",
+              "lemma": "fr:de",
+              "formNote": {
+                "en": "de + le: some (partitive)",
+                "fr": "de + le : article partitif",
+                "ro": "de + le: articol partitiv"
+              }
+            },
+            {"text": " "},
+            {"text": "pain", "lemma": "fr:pain"},
+            {"text": " "},
+            {"text": "et", "lemma": "fr:et"},
+            {"text": " "},
+            {
+              "text": "du",
+              "lemma": "fr:de",
+              "formNote": {
+                "en": "de + le: some (partitive)",
+                "fr": "de + le : article partitif",
+                "ro": "de + le: articol partitiv"
+              }
+            },
+            {"text": " "},
+            {"text": "fromage", "lemma": "fr:fromage"},
+            {"text": "."}
+          ],
+          "translation": {"en": "He buys apples, bread and cheese.", "ro": "Cumpără mere, pâine și brânză."}
+        },
+        {
+          "tokens": [
+            {"text": "Le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "marchand", "lemma": "fr:marchand"},
+            {"text": " "},
+            {"text": "lui", "lemma": "fr:lui"},
+            {"text": " "},
+            {
+              "text": "sourit",
+              "lemma": "fr:sourire",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " : « "},
+            {"text": "Bonjour", "lemma": "fr:bonjour"},
+            {"text": ", "},
+            {"text": "Paul"},
+            {"text": " ! »"}
+          ],
+          "translation": {
+            "en": "The seller smiles at him: “Hello, Paul!”",
+            "ro": "Vânzătorul îi zâmbește: „Bună ziua, Paul!”"
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Paul"},
+            {"text": " "},
+            {
+              "text": "rentre",
+              "lemma": "fr:rentrer",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "à", "lemma": "fr:à"},
+            {"text": " "},
+            {"text": "la", "lemma": "fr:le", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "maison", "lemma": "fr:maison"},
+            {"text": " "},
+            {"text": "avec", "lemma": "fr:avec"},
+            {"text": " "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "grand", "lemma": "fr:grand"},
+            {"text": " "},
+            {"text": "sac", "lemma": "fr:sac"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Paul goes back home with a big bag.", "ro": "Paul se întoarce acasă cu o sacoșă mare."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-station",
+      "level": "A1",
+      "kind": "DIALOGUE",
+      "title": "À la gare",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Bonjour", "lemma": "fr:bonjour"},
+            {"text": ", "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "billet", "lemma": "fr:billet"},
+            {"text": " "},
+            {"text": "pour", "lemma": "fr:pour"},
+            {"text": " "},
+            {"text": "Lyon"},
+            {"text": ", "},
+            {
+              "text": "s'",
+              "lemma": "fr:si",
+              "formNote": {
+                "en": "elided before a vowel",
+                "fr": "élidé devant une voyelle",
+                "ro": "elidat înaintea unei vocale"
+              }
+            },
+            {"text": "il", "lemma": "fr:il"},
+            {"text": " "},
+            {"text": "vous", "lemma": "fr:vous"},
+            {"text": " "},
+            {
+              "text": "plaît",
+              "lemma": "fr:plaire",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "— Hello, a ticket to Lyon, please.", "ro": "— Bună ziua, un bilet pentru Lyon, vă rog."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Pour", "lemma": "fr:pour"},
+            {"text": " "},
+            {"text": "ce", "lemma": "fr:ce"},
+            {"text": " "},
+            {"text": "matin", "lemma": "fr:matin"},
+            {"text": " ?"}
+          ],
+          "translation": {"en": "— For this morning?", "ro": "— Pentru dimineața aceasta?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Oui", "lemma": "fr:oui"},
+            {"text": ". "},
+            {"text": "À", "lemma": "fr:à"},
+            {"text": " "},
+            {
+              "text": "quelle",
+              "lemma": "fr:quel",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {"text": "heure", "lemma": "fr:heure"},
+            {"text": " "},
+            {
+              "text": "part",
+              "lemma": "fr:partir",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "train", "lemma": "fr:train"},
+            {"text": " ?"}
+          ],
+          "translation": {"en": "— Yes. What time does the train leave?", "ro": "— Da. La ce oră pleacă trenul?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "train", "lemma": "fr:train"},
+            {"text": " "},
+            {
+              "text": "part",
+              "lemma": "fr:partir",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "à", "lemma": "fr:à"},
+            {"text": " "},
+            {"text": "dix", "lemma": "fr:dix"},
+            {"text": " "},
+            {
+              "text": "heures",
+              "lemma": "fr:heure",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "— The train leaves at ten o'clock.", "ro": "— Trenul pleacă la ora zece."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Merci", "lemma": "fr:merci"},
+            {"text": " "},
+            {"text": "beaucoup", "lemma": "fr:beaucoup"},
+            {"text": " !"}
+          ],
+          "translation": {"en": "— Thank you very much!", "ro": "— Mulțumesc mult!"}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-cafe",
+      "level": "A1",
+      "kind": "DIALOGUE",
+      "title": "Au café",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Bonjour", "lemma": "fr:bonjour"},
+            {"text": " ! "},
+            {"text": "Un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "café", "lemma": "fr:café"},
+            {"text": ", "},
+            {
+              "text": "s'",
+              "lemma": "fr:si",
+              "formNote": {
+                "en": "elided before a vowel",
+                "fr": "élidé devant une voyelle",
+                "ro": "elidat înaintea unei vocale"
+              }
+            },
+            {"text": "il", "lemma": "fr:il"},
+            {"text": " "},
+            {"text": "vous", "lemma": "fr:vous"},
+            {"text": " "},
+            {
+              "text": "plaît",
+              "lemma": "fr:plaire",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "— Hello! A coffee, please.", "ro": "— Bună ziua! O cafea, vă rog."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Avec", "lemma": "fr:avec"},
+            {"text": " "},
+            {
+              "text": "du",
+              "lemma": "fr:de",
+              "formNote": {
+                "en": "de + le: some (partitive)",
+                "fr": "de + le : article partitif",
+                "ro": "de + le: articol partitiv"
+              }
+            },
+            {"text": " "},
+            {"text": "lait", "lemma": "fr:lait"},
+            {"text": " ?"}
+          ],
+          "translation": {"en": "— With milk?", "ro": "— Cu lapte?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Non", "lemma": "fr:non"},
+            {"text": ", "},
+            {"text": "merci", "lemma": "fr:merci"},
+            {"text": ". "},
+            {"text": "Et", "lemma": "fr:et"},
+            {"text": " "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "croissant", "lemma": "fr:croissant"},
+            {"text": " "},
+            {"text": "aussi", "lemma": "fr:aussi"},
+            {"text": "."}
+          ],
+          "translation": {"en": "— No, thank you. And a croissant too.", "ro": "— Nu, mulțumesc. Și un corn."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Voilà", "lemma": "fr:voilà"},
+            {"text": ". "},
+            {"text": "Ça", "lemma": "fr:ça"},
+            {"text": " "},
+            {
+              "text": "fait",
+              "lemma": "fr:faire",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "trois", "lemma": "fr:trois"},
+            {"text": " "},
+            {
+              "text": "euros",
+              "lemma": "fr:euro",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "— Here you are. That's three euros.", "ro": "— Poftiți. Face trei euro."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Merci", "lemma": "fr:merci"},
+            {"text": ", "},
+            {
+              "text": "bonne",
+              "lemma": "fr:bon",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {"text": "journée", "lemma": "fr:journée"},
+            {"text": " !"}
+          ],
+          "translation": {"en": "— Thank you, have a nice day!", "ro": "— Mulțumesc, o zi bună!"}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-park",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "Une promenade au parc",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "soir", "lemma": "fr:soir"},
+            {"text": ", "},
+            {"text": "Marie"},
+            {"text": " "},
+            {
+              "text": "promène",
+              "lemma": "fr:promener",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "son", "lemma": "fr:son"},
+            {"text": " "},
+            {"text": "chien", "lemma": "fr:chien"},
+            {"text": " "},
+            {"text": "au", "lemma": "fr:à", "formNote": {"en": "à + le", "fr": "à + le", "ro": "à + le"}},
+            {"text": " "},
+            {"text": "parc", "lemma": "fr:parc"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "In the evening, Marie walks her dog in the park.",
+            "ro": "Seara, Marie își plimbă câinele în parc."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "chien", "lemma": "fr:chien"},
+            {"text": " "},
+            {
+              "text": "court",
+              "lemma": "fr:courir",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "dans", "lemma": "fr:dans"},
+            {"text": " "},
+            {
+              "text": "l'",
+              "lemma": "fr:le",
+              "formNote": {
+                "en": "elided before a vowel",
+                "fr": "élidé devant une voyelle",
+                "ro": "elidat înaintea unei vocale"
+              }
+            },
+            {"text": "herbe", "lemma": "fr:herbe"},
+            {"text": "."}
+          ],
+          "translation": {"en": "The dog runs in the grass.", "ro": "Câinele aleargă prin iarbă."}
+        },
+        {
+          "tokens": [
+            {"text": "Marie"},
+            {"text": " "},
+            {
+              "text": "lit",
+              "lemma": "fr:lire",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "livre", "lemma": "fr:livre"},
+            {"text": " "},
+            {"text": "sur", "lemma": "fr:sur"},
+            {"text": " "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "banc", "lemma": "fr:banc"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Marie reads a book on a bench.", "ro": "Marie citește o carte pe o bancă."}
+        },
+        {
+          "tokens": [
+            {"text": "Ensuite", "lemma": "fr:ensuite"},
+            {"text": ", "},
+            {
+              "text": "ils",
+              "lemma": "fr:il",
+              "formNote": {"en": "plural: they", "fr": "pluriel", "ro": "plural: ei"}
+            },
+            {"text": " "},
+            {
+              "text": "rentrent",
+              "lemma": "fr:rentrer",
+              "formNote": {"en": "present, ils/elles", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {"text": "à", "lemma": "fr:à"},
+            {"text": " "},
+            {"text": "la", "lemma": "fr:le", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "maison", "lemma": "fr:maison"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Then they go back home.", "ro": "Apoi se întorc acasă."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-weekend",
+      "level": "A2",
+      "kind": "STORY",
+      "title": "Le week-end dernier",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Samedi", "lemma": "fr:samedi"},
+            {"text": " "},
+            {"text": "dernier", "lemma": "fr:dernier"},
+            {"text": ", "},
+            {"text": "Paul"},
+            {"text": " "},
+            {
+              "text": "est",
+              "lemma": "fr:être",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "allé",
+              "lemma": "fr:aller",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "à", "lemma": "fr:à"},
+            {"text": " "},
+            {"text": "Lyon"},
+            {"text": " "},
+            {"text": "en", "lemma": "fr:en"},
+            {"text": " "},
+            {"text": "train", "lemma": "fr:train"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "Last Saturday, Paul went to Lyon by train.",
+            "ro": "Sâmbăta trecută, Paul a mers la Lyon cu trenul."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Il", "lemma": "fr:il"},
+            {"text": " "},
+            {
+              "text": "a",
+              "lemma": "fr:avoir",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "visité",
+              "lemma": "fr:visiter",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "fr:le", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {
+              "text": "vieille",
+              "lemma": "fr:vieux",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {"text": "ville", "lemma": "fr:ville"},
+            {"text": " "},
+            {"text": "avec", "lemma": "fr:avec"},
+            {"text": " "},
+            {
+              "text": "sa",
+              "lemma": "fr:son",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {"text": "sœur", "lemma": "fr:sœur"},
+            {"text": "."}
+          ],
+          "translation": {"en": "He visited the old town with his sister.", "ro": "A vizitat orașul vechi cu sora lui."}
+        },
+        {
+          "tokens": [
+            {"text": "Le", "lemma": "fr:le"},
+            {"text": " "},
+            {"text": "soir", "lemma": "fr:soir"},
+            {"text": ", "},
+            {
+              "text": "ils",
+              "lemma": "fr:il",
+              "formNote": {"en": "plural: they", "fr": "pluriel", "ro": "plural: ei"}
+            },
+            {"text": " "},
+            {
+              "text": "ont",
+              "lemma": "fr:avoir",
+              "formNote": {"en": "present, ils/elles", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {
+              "text": "mangé",
+              "lemma": "fr:manger",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "dans", "lemma": "fr:dans"},
+            {"text": " "},
+            {"text": "un", "lemma": "fr:un"},
+            {"text": " "},
+            {"text": "petit", "lemma": "fr:petit"},
+            {"text": " "},
+            {"text": "restaurant", "lemma": "fr:restaurant"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "In the evening, they ate in a small restaurant.",
+            "ro": "Seara au mâncat într-un restaurant mic."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Dimanche", "lemma": "fr:dimanche"},
+            {"text": ", "},
+            {"text": "il", "lemma": "fr:il"},
+            {"text": " "},
+            {
+              "text": "a",
+              "lemma": "fr:avoir",
+              "formNote": {"en": "present, il/elle", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "plu",
+              "lemma": "fr:pleuvoir",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": ", "},
+            {"text": "alors", "lemma": "fr:alors"},
+            {"text": " "},
+            {
+              "text": "ils",
+              "lemma": "fr:il",
+              "formNote": {"en": "plural: they", "fr": "pluriel", "ro": "plural: ei"}
+            },
+            {"text": " "},
+            {
+              "text": "sont",
+              "lemma": "fr:être",
+              "formNote": {"en": "present, ils/elles", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {
+              "text": "rentrés",
+              "lemma": "fr:rentrer",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "tôt", "lemma": "fr:tôt"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "On Sunday it rained, so they came back early.",
+            "ro": "Duminică a plouat, așa că s-au întors devreme."
+          }
+        }
+      ],
+      "review": "ai"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "fr-01-articles",
+      "order": 1,
+      "title": {"en": "Articles", "fr": "Les articles", "ro": "Articolele"},
+      "summary": {
+        "en": "Definite, indefinite and partitive.",
+        "fr": "Défini, indéfini et partitif.",
+        "ro": "Hotărât, nehotărât și partitiv."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Definite and indefinite", "fr": "Défini et indéfini", "ro": "Hotărât și nehotărât"},
+          "body": {
+            "en": "French has two genders. The article comes before the noun and carries its gender:\ndefinite le (masculine), la (feminine), l' (before a vowel), les (plural);\nindefinite un, une, des.",
+            "fr": "Le français a deux genres. L'article se place devant le nom et en porte le genre :\ndéfini le (masculin), la (féminin), l' (devant une voyelle), les (pluriel) ;\nindéfini un, une, des.",
+            "ro": "Franceza are două genuri. Articolul stă înaintea substantivului și îi arată genul:\nhotărât le (masculin), la (feminin), l' (înaintea unei vocale), les (plural);\nnehotărât un, une, des."
+          },
+          "examples": [
+            {"text": "le livre", "translation": {"en": "the book", "ro": "cartea"}},
+            {"text": "la maison", "translation": {"en": "the house", "ro": "casa"}},
+            {"text": "les enfants", "translation": {"en": "the children", "ro": "copiii"}},
+            {"text": "un garçon", "translation": {"en": "a boy", "ro": "un băiat"}},
+            {"text": "une fille", "translation": {"en": "a girl", "ro": "o fată"}},
+            {"text": "des pommes", "translation": {"en": "(some) apples", "ro": "niște mere"}}
+          ]
+        },
+        {
+          "heading": {"en": "The partitive", "fr": "Le partitif", "ro": "Partitivul"},
+          "body": {
+            "en": "du, de la, de l' express an amount you don't count: du pain, de la soupe, de l'eau.\nAfter a negative, they become de: je ne bois pas de café.",
+            "fr": "du, de la, de l' désignent une quantité qu'on ne compte pas : du pain, de la soupe, de l'eau.\nAprès une négation, ils deviennent de : je ne bois pas de café.",
+            "ro": "du, de la, de l' exprimă o cantitate care nu se numără: du pain, de la soupe, de l'eau.\nDupă o negație, devin de: je ne bois pas de café."
+          },
+          "examples": [
+            {"text": "Je bois du café.", "translation": {"en": "I drink coffee.", "ro": "Beau cafea."}},
+            {"text": "Je mange de la soupe.", "translation": {"en": "I'm eating soup.", "ro": "Mănânc supă."}},
+            {"text": "Il y a de l'eau.", "translation": {"en": "There is water.", "ro": "Este apă."}},
+            {
+              "text": "Je ne bois pas de café.",
+              "translation": {"en": "I don't drink coffee.", "ro": "Nu beau cafea."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and Romanian",
+            "fr": "Comparaison avec le roumain et l'anglais",
+            "ro": "Comparație cu româna și engleza"
+          },
+          "body": {
+            "en": "In Romanian, the definite article is attached to the end of the noun (casa, cartea); in French, as in English, it comes before. The partitive exists in neither English nor Romanian: \"Je bois du café\" is simply I drink coffee, Beau cafea. Gender often differs: \"le livre\" is feminine in Romanian (cartea).",
+            "fr": "En roumain, l'article défini est collé à la fin du nom (casa, cartea) ; en français, il est toujours devant. Le partitif n'existe ni en roumain ni en anglais : « Je bois du café » se dit simplement Beau cafea, I drink coffee. Le genre change souvent : « le livre » est féminin en roumain (cartea).",
+            "ro": "În română, articolul hotărât se lipește la sfârșitul substantivului (casa, cartea); în franceză stă mereu înainte. Partitivul nu există nici în română, nici în engleză: „Je bois du café” înseamnă pur și simplu Beau cafea. Genul diferă adesea: „le livre” este masculin, dar cartea este feminin."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-02-passe-compose",
+      "order": 2,
+      "title": {"en": "The passé composé", "fr": "Le passé composé", "ro": "Passé composé"},
+      "summary": {
+        "en": "avoir or être + past participle.",
+        "fr": "Avoir ou être + participe passé.",
+        "ro": "avoir sau être + participiu."
+      },
+      "sections": [
+        {
+          "heading": {"en": "With avoir", "fr": "Avec avoir", "ro": "Cu avoir"},
+          "body": {
+            "en": "Most verbs form the passé composé with avoir: j'ai mangé, tu as fini, nous avons vu.\nParticiples: -er → -é (mangé), -ir → -i (fini), and many irregular ones (vu, pris, fait).",
+            "fr": "La plupart des verbes forment le passé composé avec avoir : j'ai mangé, tu as fini, nous avons vu.\nParticipes : -er → -é (mangé), -ir → -i (fini), et beaucoup d'irréguliers (vu, pris, fait).",
+            "ro": "Majoritatea verbelor formează passé composé cu avoir: j'ai mangé, tu as fini, nous avons vu.\nParticipii: -er → -é (mangé), -ir → -i (fini) și multe neregulate (vu, pris, fait)."
+          },
+          "examples": [
+            {"text": "J'ai mangé.", "translation": {"en": "I ate.", "ro": "Am mâncat."}},
+            {"text": "Tu as fini ?", "translation": {"en": "Have you finished?", "ro": "Ai terminat?"}},
+            {
+              "text": "Nous avons vu un film.",
+              "translation": {"en": "We saw a film.", "ro": "Am văzut un film."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "With être", "fr": "Avec être", "ro": "Cu être"},
+          "body": {
+            "en": "Verbs of movement or change of state (aller, venir, partir, arriver, naître, mourir…) and all reflexive verbs use être.\nThe participle then agrees with the subject: elle est partie, nous sommes allés.",
+            "fr": "Les verbes de mouvement ou de changement d'état (aller, venir, partir, arriver, naître, mourir…) et tous les verbes pronominaux utilisent être.\nLe participe s'accorde alors avec le sujet : elle est partie, nous sommes allés.",
+            "ro": "Verbele de mișcare sau de schimbare de stare (aller, venir, partir, arriver, naître, mourir…) și toate verbele reflexive folosesc être.\nParticipiul se acordă atunci cu subiectul: elle est partie, nous sommes allés."
+          },
+          "examples": [
+            {"text": "Elle est partie.", "translation": {"en": "She left.", "ro": "Ea a plecat."}},
+            {
+              "text": "Nous sommes allés à Bucarest.",
+              "translation": {"en": "We went to Bucharest.", "ro": "Am mers la București."}
+            },
+            {
+              "text": "Je me suis levé tôt.",
+              "translation": {"en": "I got up early.", "ro": "M-am sculat devreme."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and Romanian",
+            "fr": "Comparaison avec le roumain et l'anglais",
+            "ro": "Comparație cu româna și engleza"
+          },
+          "body": {
+            "en": "The Romanian perfectul compus is always formed with a avea (am mâncat, a plecat) and the participle never agrees. In French you must choose between avoir and être, and with être the participle agrees. English usually translates the passé composé with a past simple: Elle est partie hier, She left yesterday.",
+            "fr": "Le perfectul compus roumain se forme toujours avec a avea (am mâncat, a plecat) et le participe ne s'accorde pas. En français, il faut choisir entre avoir et être, puis accorder avec être. L'anglais traduit souvent le passé composé par un prétérit : Elle est partie hier, She left yesterday.",
+            "ro": "Perfectul compus românesc se formează mereu cu a avea (am mâncat, a plecat), iar participiul nu se acordă. În franceză trebuie ales între avoir și être, iar cu être participiul se acordă. Engleza traduce de obicei passé composé printr-un past simple: Elle est partie hier, She left yesterday."
+          },
+          "examples": [
+            {
+              "text": "Elle est arrivée hier.",
+              "translation": {"en": "She arrived yesterday.", "ro": "Ea a sosit ieri."}
+            }
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-03-negation-questions",
+      "order": 3,
+      "title": {"en": "Negatives and questions", "fr": "Négation et questions", "ro": "Negația și întrebările"},
+      "summary": {
+        "en": "ne … pas, and three ways to ask a question.",
+        "fr": "ne … pas, et trois façons de poser une question.",
+        "ro": "ne … pas și trei moduri de a pune o întrebare."
+      },
+      "sections": [
+        {
+          "heading": {"en": "The negative ne … pas", "fr": "La négation ne … pas", "ro": "Negația ne … pas"},
+          "body": {
+            "en": "The negative surrounds the conjugated verb: je ne parle pas. Before a vowel, ne becomes n': je n'ai pas faim.\nIn speech, ne often disappears: je sais pas.",
+            "fr": "La négation entoure le verbe conjugué : je ne parle pas. Devant une voyelle, ne devient n' : je n'ai pas faim.\nÀ l'oral, le ne disparaît souvent : je sais pas.",
+            "ro": "Negația încadrează verbul conjugat: je ne parle pas. Înaintea unei vocale, ne devine n': je n'ai pas faim.\nÎn vorbire, ne dispare adesea: je sais pas."
+          },
+          "examples": [
+            {
+              "text": "Je ne parle pas roumain.",
+              "translation": {"en": "I don't speak Romanian.", "ro": "Nu vorbesc română."}
+            },
+            {
+              "text": "Il ne travaille pas.",
+              "translation": {"en": "He doesn't work.", "ro": "El nu lucrează."}
+            },
+            {"text": "Je n'ai pas faim.", "translation": {"en": "I'm not hungry.", "ro": "Nu mi-e foame."}},
+            {"text": "Je sais pas.", "translation": {"en": "I don't know.", "ro": "Nu știu."}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "Three ways to ask a question",
+            "fr": "Trois façons de poser une question",
+            "ro": "Trei moduri de a pune o întrebare"
+          },
+          "body": {
+            "en": "Intonation only (informal): Tu viens ?\nWith est-ce que (everyday): Est-ce que tu viens ?\nSubject inversion (formal): Viens-tu ?\nWith a question word: Où est-ce que tu habites ?",
+            "fr": "Intonation seule (familier) : Tu viens ?\nAvec est-ce que (courant) : Est-ce que tu viens ?\nInversion du sujet (soutenu) : Viens-tu ?\nAvec un mot interrogatif : Où est-ce que tu habites ?",
+            "ro": "Doar prin intonație (familiar): Tu viens ?\nCu est-ce que (uzual): Est-ce que tu viens ?\nCu inversiunea subiectului (elevat): Viens-tu ?\nCu un cuvânt interogativ: Où est-ce que tu habites ?"
+          },
+          "examples": [
+            {"text": "Tu viens ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}},
+            {"text": "Est-ce que tu viens ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}},
+            {"text": "Viens-tu ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}},
+            {
+              "text": "Où est-ce que tu habites ?",
+              "translation": {"en": "Where do you live?", "ro": "Unde locuiești?"}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and Romanian",
+            "fr": "Comparaison avec le roumain et l'anglais",
+            "ro": "Comparație cu româna și engleza"
+          },
+          "body": {
+            "en": "Romanian only puts nu before the verb (Nu vorbesc) and asks questions with intonation, like informal French. English needs the auxiliary do: Do you speak French?, I don't know.",
+            "fr": "Le roumain place seulement nu devant le verbe (Nu vorbesc) et pose ses questions par l'intonation, comme le français familier. L'anglais, lui, a besoin de l'auxiliaire do : Do you speak French?",
+            "ro": "Româna pune doar nu înaintea verbului (Nu vorbesc) și pune întrebări prin intonație, ca franceza familiară. Engleza are nevoie de auxiliarul do: Do you speak French?"
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-04-present-er",
+      "order": 4,
+      "title": {
+        "en": "Present tense of -er verbs",
+        "fr": "Le présent des verbes en -er",
+        "ro": "Prezentul verbelor în -er"
+      },
+      "summary": {
+        "en": "Nine verbs in ten follow parler.",
+        "fr": "Neuf verbes sur dix suivent parler.",
+        "ro": "Nouă verbe din zece se conjugă ca parler."
+      },
+      "sections": [
+        {
+          "heading": {"en": "The endings", "fr": "Les terminaisons", "ro": "Terminațiile"},
+          "body": {"en": "je parle, tu parles, il / elle parle\nnous parlons, vous parlez, ils / elles parlent"},
+          "examples": [
+            {
+              "text": "Je parle français.",
+              "translation": {"en": "I speak French.", "ro": "Vorbesc franceza."}
+            },
+            {
+              "text": "Tu habites à Paris ?",
+              "translation": {"en": "Do you live in Paris?", "ro": "Locuiești la Paris?"}
+            },
+            {
+              "text": "Nous aimons le café.",
+              "translation": {"en": "We love coffee.", "ro": "Ne place cafeaua."}
+            },
+            {
+              "text": "Ils travaillent ici.",
+              "translation": {"en": "They work here.", "ro": "Ei lucrează aici."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Silent endings", "fr": "Les terminaisons muettes", "ro": "Terminațiile mute"},
+          "body": {
+            "en": "-e, -es and -ent are not pronounced: parle, parles and parlent sound the same. Only the nous and vous forms are heard.",
+            "fr": "-e, -es et -ent ne se prononcent pas : parle, parles et parlent se disent pareil. Seules les formes nous et vous s'entendent.",
+            "ro": "-e, -es și -ent nu se pronunță: parle, parles și parlent sună la fel. Doar formele cu nous și vous se aud diferit."
+          },
+          "examples": [
+            {"text": "elle parle", "translation": {"en": "she speaks", "ro": "ea vorbește"}},
+            {"text": "elles parlent", "translation": {"en": "they speak", "ro": "ele vorbesc"}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and Romanian",
+            "fr": "Comparaison avec le roumain et l'anglais",
+            "ro": "Comparație cu româna și engleza"
+          },
+          "body": {
+            "en": "In Romanian, every ending is heard and the pronoun can be dropped (vorbesc). In French, since the endings are silent, the pronoun is always needed: je parle, never just parle.",
+            "fr": "En roumain, chaque terminaison s'entend et le pronom peut disparaître (vorbesc). En français, les terminaisons étant muettes, le pronom est obligatoire : je parle, jamais parle seul.",
+            "ro": "În română, fiecare terminație se aude și pronumele poate lipsi (vorbesc). În franceză, terminațiile fiind mute, pronumele este obligatoriu: je parle, niciodată doar parle."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-05-negation",
+      "order": 5,
+      "title": {"en": "Negation", "fr": "La négation", "ro": "Negația"},
+      "summary": {"en": "ne… pas and its relatives.", "fr": "ne… pas et ses cousins.", "ro": "ne… pas și înrudiții săi."},
+      "sections": [
+        {
+          "heading": {"en": "Around the verb", "fr": "Autour du verbe", "ro": "În jurul verbului"},
+          "body": {
+            "en": "The negation surrounds the conjugated verb: je ne parle pas. ne becomes n' before a vowel: je n'aime pas.",
+            "fr": "La négation encadre le verbe conjugué : je ne parle pas. ne devient n' devant une voyelle : je n'aime pas.",
+            "ro": "Negația încadrează verbul conjugat: je ne parle pas. ne devine n' înaintea unei vocale: je n'aime pas."
+          },
+          "examples": [
+            {
+              "text": "Je ne parle pas anglais.",
+              "translation": {"en": "I don't speak English.", "ro": "Nu vorbesc engleza."}
+            },
+            {
+              "text": "Je n'aime pas le thé.",
+              "translation": {"en": "I don't like tea.", "ro": "Nu-mi place ceaiul."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Never, no longer, nothing", "fr": "Jamais, plus, rien", "ro": "Niciodată, nu mai, nimic"},
+          "body": {
+            "en": "pas can be replaced: ne… jamais (never), ne… plus (no longer), ne… rien (nothing).\nIn everyday speech, ne is often dropped: je sais pas.",
+            "fr": "pas peut être remplacé : ne… jamais, ne… plus, ne… rien.\nÀ l'oral courant, ne disparaît souvent : je sais pas.",
+            "ro": "pas poate fi înlocuit: ne… jamais (niciodată), ne… plus (nu mai), ne… rien (nimic).\nÎn vorbirea de zi cu zi, ne dispare adesea: je sais pas."
+          },
+          "examples": [
+            {
+              "text": "Il ne fume jamais.",
+              "translation": {"en": "He never smokes.", "ro": "El nu fumează niciodată."}
+            },
+            {
+              "text": "Je n'habite plus ici.",
+              "translation": {"en": "I don't live here any more.", "ro": "Nu mai locuiesc aici."}
+            },
+            {
+              "text": "Je ne vois rien.",
+              "translation": {"en": "I can't see anything.", "ro": "Nu văd nimic."}
+            },
+            {"text": "Je sais pas.", "translation": {"en": "Dunno.", "ro": "Nu știu."}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "fr-06-questions",
+      "order": 6,
+      "title": {"en": "Asking questions", "fr": "Poser une question", "ro": "Cum punem întrebări"},
+      "summary": {
+        "en": "Three ways, from casual to formal.",
+        "fr": "Trois façons, du familier au soutenu.",
+        "ro": "Trei moduri, de la familiar la formal."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Three ways", "fr": "Trois façons", "ro": "Trei moduri"},
+          "body": {
+            "en": "Rising intonation (casual): Tu viens ?\nest-ce que (neutral): Est-ce que tu viens ?\nInversion (formal): Viens-tu ?",
+            "fr": "Intonation montante (familier) : Tu viens ?\nest-ce que (courant) : Est-ce que tu viens ?\nInversion (soutenu) : Viens-tu ?",
+            "ro": "Intonație ascendentă (familiar): Tu viens ?\nest-ce que (neutru): Est-ce que tu viens ?\nInversiune (formal): Viens-tu ?"
+          },
+          "examples": [
+            {"text": "Tu viens ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}},
+            {"text": "Est-ce que tu viens ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}},
+            {"text": "Viens-tu ?", "translation": {"en": "Are you coming?", "ro": "Vii?"}}
+          ]
+        },
+        {
+          "heading": {"en": "Question words", "fr": "Les mots interrogatifs", "ro": "Cuvintele interogative"},
+          "body": {
+            "en": "où (where), quand (when), comment (how), pourquoi (why), combien (how much), qui (who), que / quoi (what).",
+            "fr": "où, quand, comment, pourquoi, combien, qui, que / quoi.",
+            "ro": "où (unde), quand (când), comment (cum), pourquoi (de ce), combien (cât), qui (cine), que / quoi (ce)."
+          },
+          "examples": [
+            {
+              "text": "Où est la gare ?",
+              "translation": {"en": "Where is the station?", "ro": "Unde este gara?"}
+            },
+            {"text": "Combien ça coûte ?", "translation": {"en": "How much is it?", "ro": "Cât costă?"}},
+            {"text": "Pourquoi tu ris ?", "translation": {"en": "Why are you laughing?", "ro": "De ce râzi?"}}
+          ]
+        }
+      ],
+      "review": "ai"
+    }
+  ]
+}
