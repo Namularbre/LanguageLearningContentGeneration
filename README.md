@@ -49,34 +49,36 @@ flowchart LR
 
 ## Quick start
 
-```bash
-# Checks and tests: Python 3.10+, no dependency, no network
-python -m unittest discover -s tests -t .
-python -m pipeline check
+The project is managed with [uv](https://docs.astral.sh/uv/) (`pyproject.toml`, `uv.lock`). Install uv once: `curl -LsSf https://astral.sh/uv/install.sh | sh` (or `brew install uv`, `pipx install uv`).
 
-# Writing drafts: dependencies and a Gemini API key
-python -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt          # Stanza pulls PyTorch: about 500 MB to 1 GB
+```bash
+# Checks and tests: no extra dependency, no network
+uv run python -m unittest discover -s tests -t .
+uv run pipeline check
+
+# Writing drafts: the `draft` extra (Stanza pulls PyTorch, about 500 MB to 1 GB) and a Gemini API key
 export GEMINI_API_KEY=...                # https://aistudio.google.com/apikey, never commit it
 
-python -m pipeline draft --language ro-RO --id ro-bakery --level A1 \
+uv run --extra draft pipeline draft --language ro-RO --id ro-bakery --level A1 \
     --kind STORY --topic "buying bread at the bakery"
 #   -> drafts/ro-bakery.json and drafts/ro-bakery.md
 
 # ... review the draft, set "status": "approved" ...
 
-python -m pipeline publish drafts/ro-bakery.json
+uv run pipeline publish drafts/ro-bakery.json
 #   -> packs/ro-RO.json, version + 1
 
 cp packs/*.json ../LanguageLearning/core/data/src/main/assets/packs/
 ```
 
+`uv run` creates `.venv/` on first use, with the Python version of `.python-version` (3.12) and the versions locked in `uv.lock`. Only `draft` needs `--extra draft`; the other commands run without Stanza and Gemini installed.
+
 | Command | What it does |
 |---|---|
-| `python -m pipeline draft --language L --id ID --level A1..C1 [--kind STORY\|DIALOGUE\|NEWS] --topic "..." [--sentences 8]` | Writes a new text with Gemini, annotates it, saves a draft and its review sheet |
-| `python -m pipeline publish DRAFT.json [...]` | Adds approved drafts to their pack and raises its version; refuses if a check fails |
-| `python -m pipeline check [PACK.json ...]` | Runs the pack checks (all packs by default) |
-| `python -m pipeline format [PACK.json ...]` | Rewrites packs in the stable layout |
+| `uv run --extra draft pipeline draft --language L --id ID --level A1..C1 [--kind STORY\|DIALOGUE\|NEWS] --topic "..." [--sentences 8]` | Writes a new text with Gemini, annotates it, saves a draft and its review sheet |
+| `uv run pipeline publish DRAFT.json [...]` | Adds approved drafts to their pack and raises its version; refuses if a check fails |
+| `uv run pipeline check [PACK.json ...]` | Runs the pack checks (all packs by default) |
+| `uv run pipeline format [PACK.json ...]` | Rewrites packs in the stable layout |
 
 The first `draft` for a language downloads its Stanza model (a few hundred MB). The Gemini model is `gemini-flash-latest` by default; set `GEMINI_MODEL` to pin another one.
 
@@ -184,7 +186,7 @@ Open `drafts/<id>.md`. It lists the text, its translations, the flagged words, t
 2. **AI remarks**: fix the sentence or translation if the remark is right. When you change a sentence's words, run `draft` again rather than editing tokens by hand, so the cutting and the lemmas stay consistent.
 3. **New words**: check the meanings and the gender.
 4. Set `"status": "approved"`. Set `"reviewedBy": "human"` only if you are fluent in the text's language.
-5. Run `python -m pipeline publish drafts/<id>.json`.
+5. Run `uv run pipeline publish drafts/<id>.json`.
 
 ### Who reviews what
 
@@ -267,13 +269,13 @@ classDiagram
 - A sentence is a list of **tokens**. Joining their `text` gives the sentence back. Words carry a `lemma`; spaces, punctuation and proper names do not.
 - Unknown keys are ignored by the app, so optional fields (like `review`) can be added without breaking it. A change the app cannot read must raise `format`.
 
-Packs are written in a stable layout (`python -m pipeline format`): an object that fits on one line stays on one line, so a change shows up as a one-line diff.
+Packs are written in a stable layout (`uv run pipeline format`): an object that fits on one line stays on one line, so a change shows up as a one-line diff.
 
 ---
 
 ## Checks
 
-`python -m pipeline check` runs the same checks as the app's `PackContentTest`. CI runs them on every pull request.
+`uv run pipeline check` runs the same checks as the app's `PackContentTest`. CI runs them on every pull request.
 
 | Check | Why |
 |---|---|
@@ -315,7 +317,7 @@ flowchart LR
     analysis --> tokenizer
 ```
 
-Stanza and `google-genai` are imported only by the `draft` command. Everything else, including the tests, runs on a plain Python install.
+Stanza and `google-genai` are imported only by the `draft` command. Everything else, including the tests, needs only the standard library: dependencies live in the optional `draft` extra of `pyproject.toml`.
 
 ---
 

@@ -1,3 +1,0 @@
-# Only needed for `python -m pipeline draft`. `check`, `publish`, `format` and the tests need nothing.
-stanza>=1.10
-google-genai>=1.0

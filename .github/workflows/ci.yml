@@ -12,10 +12,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+      # Installs the project only (no `draft` extra): the tests use a fake AI and a fake Stanza.
       - name: Unit tests
-        run: python -m unittest discover -s tests -t .
+        run: uv run --locked python -m unittest discover -s tests -t .
       - name: Pack checks
-        run: python -m pipeline check
+        run: uv run --locked pipeline check

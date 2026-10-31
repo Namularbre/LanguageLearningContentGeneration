@@ -127,7 +127,7 @@ def review_sheet(draft: dict) -> str:
     lines += [f"- {l['text']} ({l['partOfSpeech'].lower()}): " + ", ".join(f"{c}: {m}" for c, m in l["meaning"].items())
               for l in draft["newLemmas"]] or ["None."]
     lines += ["", "To publish: fix the draft JSON if needed, set \"status\" to \"approved\" (and \"reviewedBy\" to "
-              "\"human\" if a fluent speaker read it), then run `python -m pipeline publish <draft>`.", ""]
+              "\"human\" if a fluent speaker read it), then run `uv run pipeline publish <draft>`.", ""]
     return "\n".join(lines)
 
 

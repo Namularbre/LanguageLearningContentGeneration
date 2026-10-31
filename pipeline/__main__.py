@@ -1,4 +1,4 @@
-"""Command line: python -m pipeline {draft,publish,check,format} …  (see README.md)."""
+"""Command line: uv run pipeline {draft,publish,check,format} …  (see README.md)."""
 
 import argparse
 import json
@@ -12,7 +12,7 @@ DRAFTS = Path(__file__).resolve().parent.parent / "drafts"
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(prog="python -m pipeline")
+    parser = argparse.ArgumentParser(prog="pipeline")
     commands = parser.add_subparsers(dest="command", required=True)
 
     draft = commands.add_parser("draft", help="write a new text with Gemini and annotate it")
