@@ -328,7 +328,7 @@ Stanza and `google-genai` are imported only by the `draft` command. Everything e
 - **A separate repository.** The Android app only holds the packs, not the tooling that produces them.
 - **New words are ranked after the known ones.** `frequencyRank` orders the level test, so an approximate order is acceptable for now. A frequency list could replace it later.
 - **Lessons are not generated yet.** They are written by hand in the packs. Only reading texts go through the pipeline.
-- **Not run against the real services yet.** The logic around Stanza and Gemini is covered by tests with fakes, but the first real `draft` still has to be run and checked.
+- **Tested on the real services once.** A Romanian A1 draft ran end to end on Windows with Stanza 1.15 and Gemini; the rest of the logic is covered by tests with fakes.
 
 ---
 
