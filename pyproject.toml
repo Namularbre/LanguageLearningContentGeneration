@@ -14,6 +14,11 @@ draft = [
     "google-genai>=1.0",
 ]
 
+# Only for the content API (api/main.py).
+api = [
+    "fastapi[standard]>=0.115",
+]
+
 [project.scripts]
 pipeline = "pipeline.__main__:main"
 
@@ -22,5 +27,5 @@ requires = ["uv_build>=0.11,<0.12"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-module-name = "pipeline"
+module-name = ["pipeline", "api"]
 module-root = ""
