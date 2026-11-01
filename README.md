@@ -10,6 +10,7 @@ The app only **reads** content. It never writes texts and never guesses the base
 - [Choosing the base form of a word](#choosing-the-base-form-of-a-word)
 - [Life of a draft](#life-of-a-draft)
 - [Reviewing a draft](#reviewing-a-draft)
+- [Content API](#content-api)
 - [Pack format](#pack-format)
 - [Checks](#checks)
 - [Code layout](#code-layout)
@@ -29,6 +30,7 @@ flowchart LR
         P --> D[drafts/*.json<br/>+ review sheet *.md]
         D -->|reviewer approves| P2[pipeline publish]
         P2 --> K[(packs/*.json)]
+        K --> API[["Content API (FastAPI)<br/>GET /languages<br/>GET /packs/LANG"]]
     end
 
     subgraph app["LanguageLearning (Android app)"]
@@ -36,14 +38,12 @@ flowchart LR
         A[(assets/packs/*.json<br/>bundled in the APK)] --> B[BundledPacks] --> R[Pack…Repository] --> UI[Library, Reader,<br/>lessons]
     end
 
-    API[["Content API<br/>GET /packs/LANG<br/>planned for M2"]]
-
     K -->|copy today| A
-    K -.->|upload, M2| API -.->|sync into Room| R
+    API -.->|"download, sync into Room (M2, app side to do)"| R
 ```
 
 - **Today**: published packs are copied into the app (`core/data/src/main/assets/packs/`) and shipped in the APK.
-- **M2**: the same files will be served by the content API (`GET /packs/{languageCode}`) and stored in Room by the app. The bundled packs remain as first-launch content, so the app still works offline.
+- **M2**: the same files are served by the [content API](#content-api) (`GET /packs/{languageCode}`); the app still has to download them and store them in Room. The bundled packs remain as first-launch content, so the app still works offline.
 
 ---
 
@@ -53,7 +53,7 @@ The project is managed with [uv](https://docs.astral.sh/uv/) (`pyproject.toml`, 
 
 ```bash
 # Checks and tests: no extra dependency, no network
-uv run python -m unittest discover -s tests -t .
+uv run --extra api python -m unittest discover -s tests -t .   # without --extra api, the API tests are skipped
 uv run pipeline check
 
 # Writing drafts: the `draft` extra (Stanza pulls PyTorch, about 500 MB to 1 GB) and a Gemini API key
@@ -201,6 +201,42 @@ French content can be reviewed by the author. Romanian content stays `"ai"` unti
 
 ---
 
+## Content API
+
+A [FastAPI](https://fastapi.tiangolo.com/) app (`api/main.py`) that serves the files of `packs/` read-only. It is deliberately minimal: no database, no authentication, the files are read at each request, so a `pipeline publish` is served at once.
+
+```bash
+uv run --extra api fastapi dev api/main.py      # development, reloads on change
+uv run --extra api fastapi run api/main.py      # production-like, port 8000
+# interactive documentation: http://127.0.0.1:8000/docs
+```
+
+| Method | Route | Answer |
+|---|---|---|
+| GET | `/languages` | `[{"languageCode": "ro-RO", "version": 3}, …]`: every pack and its content version |
+| GET | `/packs/{languageCode}` | the whole pack (same JSON as the file); `404` if there is none |
+| GET | `/packs/{languageCode}?since=3` | `204 No Content` if the pack's version is 3 or less (the app is up to date), else the whole pack |
+
+```mermaid
+sequenceDiagram
+    participant App as App (ContentSyncWorker, M2)
+    participant API as Content API
+    participant Files as packs/*.json
+    App->>API: GET /languages
+    API->>Files: read every pack
+    API-->>App: [{ro-RO, version 3}, …]
+    Note over App: has ro-RO version 2
+    App->>API: GET /packs/ro-RO?since=2
+    API->>Files: read ro-RO.json
+    API-->>App: 200 + the whole pack (version 3)
+    App->>API: GET /packs/fr-FR?since=1
+    API-->>App: 204 No Content (already up to date)
+```
+
+The language code in the URL is only matched against the existing file names, so a request cannot read any other file.
+
+---
+
 ## Pack format
 
 Format version **1**, read by the app's `ContentPackParser`. The full explanation is in the app's [`docs/understanding/content-packs.md`](https://github.com/Namularbre/LanguageLearning/blob/m1-prototype/docs/understanding/content-packs.md).
@@ -300,6 +336,8 @@ pipeline/
   notes.py      grammar notes from Universal Dependencies features, in English, French and Romanian
   drafts.py     building a draft, the review sheet, publishing into a pack
   packs.py      loading, checking, formatting packs
+api/
+  main.py       content API (FastAPI): /languages, /packs/{languageCode}
 packs/          published packs: the source of truth for the app's bundled packs
 drafts/         drafts waiting for review
 tests/          unit tests (fake AI and fake Stanza: no network, no dependency)
@@ -317,7 +355,7 @@ flowchart LR
     analysis --> tokenizer
 ```
 
-Stanza and `google-genai` are imported only by the `draft` command. Everything else, including the tests, needs only the standard library: dependencies live in the optional `draft` extra of `pyproject.toml`.
+Stanza and `google-genai` are imported only by the `draft` command, FastAPI only by `api/`. The rest needs only the standard library: dependencies live in the optional `draft` and `api` extras of `pyproject.toml`. The API tests are skipped when the `api` extra is not installed.
 
 ---
 

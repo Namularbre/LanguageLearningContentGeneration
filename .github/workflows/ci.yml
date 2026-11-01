@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
-      # Installs the project only (no `draft` extra): the tests use a fake AI and a fake Stanza.
+      # No `draft` extra: the tests use a fake AI and a fake Stanza. The `api` extra runs the API tests.
       - name: Unit tests
-        run: uv run --locked python -m unittest discover -s tests -t .
+        run: uv run --locked --extra api python -m unittest discover -s tests -t .
       - name: Pack checks
         run: uv run --locked pipeline check
