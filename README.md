@@ -10,6 +10,7 @@ The app only **reads** content. It never writes texts and never guesses the base
 - [Choosing the base form of a word](#choosing-the-base-form-of-a-word)
 - [Life of a draft](#life-of-a-draft)
 - [Reviewing a draft](#reviewing-a-draft)
+- [Real example sentences (Tatoeba)](#real-example-sentences-tatoeba)
 - [Content API](#content-api)
 - [Pack format](#pack-format)
 - [Checks](#checks)
@@ -77,6 +78,7 @@ cp packs/*.json ../LanguageLearning/core/data/src/main/assets/packs/
 |---|---|
 | `uv run --extra draft pipeline draft --language L --id ID --level A1..C1 [--kind STORY\|DIALOGUE\|NEWS] --topic "..." [--sentences 8]` | Writes a new text with Gemini, annotates it, saves a draft and its review sheet |
 | `uv run pipeline publish DRAFT.json [...]` | Adds approved drafts to their pack and raises its version; refuses if a check fails |
+| `uv run pipeline examples --language L [--per-word 3] [--max-words 10] [--max-unknown 1]` | Adds real example sentences from Tatoeba to the words of a pack |
 | `uv run pipeline check [PACK.json ...]` | Runs the pack checks (all packs by default) |
 | `uv run pipeline format [PACK.json ...]` | Rewrites packs in the stable layout |
 
@@ -201,6 +203,40 @@ French content can be reviewed by the author. Romanian content stays `"ai"` unti
 
 ---
 
+## Real example sentences (Tatoeba)
+
+Stories are generated, but **example sentences** for the words come from [Tatoeba](https://tatoeba.org): short sentences written and translated by people, many in Romanian, French and English, some with a recording. They feed the word sheet, the multiple-choice questions and the review cards with real sentences instead of invented ones.
+
+```bash
+uv run pipeline examples --language ro-RO       # first run downloads the exports into .cache/ (a few hundred MB)
+```
+
+```mermaid
+flowchart LR
+    T[("Tatoeba exports<br/>sentences, links,<br/>sentences_with_audio")] --> F{"for each sentence<br/>in the pack's language"}
+    P[(packs/ro-RO.json)] --> K["known forms<br/>(from the pack's texts)"]
+    K --> F
+    F -->|"≤ 10 words, ≤ 1 unknown word,<br/>translated into en or fr"| E["example: tokens linked to lemmas,<br/>translations, source, audio"]
+    F -->|otherwise| X[skipped]
+    E --> L["lemma.examples<br/>(3 per word, fully translated<br/>and shortest first)"]
+    L --> P
+```
+
+- A word of the sentence is linked to its base form through the **forms already seen in the pack's texts** (*casei* → *casă*). A form seen with two different base forms is not used, so no lemma is guessed. Names the texts use (Ana, Mihai) count as readable.
+- Running it again replaces the examples and raises the pack version only if something changed.
+- Romanian sentences written with a cedilla (ş, ţ) are corrected to the comma below.
+
+### Licence and credits (the app must show them)
+
+| What | Licence | What to show |
+|---|---|---|
+| Sentences and translations | CC BY 2.0 FR | "Example sentences from Tatoeba (https://tatoeba.org), CC BY 2.0 FR", e.g. in a Credits screen |
+| Recordings | chosen by each person (CC BY, CC BY-NC…) | the author and licence of each recording used (`audio.author`, `audio.license`) |
+
+Recordings without a licence may not be reused outside Tatoeba, so they are never kept. Each example keeps its Tatoeba sentence id and author (`source`), which is what a Credits screen needs. Note that some recordings are **non-commercial** (CC BY-NC): if the app is ever sold, filter them out.
+
+---
+
 ## Content API
 
 A [FastAPI](https://fastapi.tiangolo.com/) app (`api/main.py`) that serves the files of `packs/` read-only. It is deliberately minimal: no database, no authentication, the files are read at each request, so a `pipeline publish` is served at once.
@@ -260,6 +296,12 @@ classDiagram
         ipa?
         pronunciationNote?: Localized
     }
+    class WordExample {
+        tokens
+        translation: Localized
+        source: tatoeba id, author, licence
+        audio?: url, author, licence
+    }
     class Text {
         id
         level: A1..C1
@@ -297,6 +339,7 @@ classDiagram
     Text "1" *-- "*" Sentence
     Sentence "1" *-- "*" Token
     Token ..> Lemma : lemma id
+    Lemma "1" *-- "*" WordExample : examples
     Lesson "1" *-- "*" Section
     Section "1" *-- "*" Example
 ```
@@ -322,6 +365,7 @@ Packs are written in a stable layout (`uv run pipeline format`): an object that 
 | Translations present in exactly the other UI languages; notes in all three | the app shows the learner's UI language |
 | Romanian ș/ț with a comma below, never a cedilla (ş/ţ) | the cedilla forms are wrong in Romanian |
 | Every text has at least one word | comprehension is computed on words |
+| Every example uses its word, has a translation, and credits its source (and its recording's author and licence) | Tatoeba's licence requires credit |
 
 ---
 
@@ -336,6 +380,7 @@ pipeline/
   notes.py      grammar notes from Universal Dependencies features, in English, French and Romanian
   drafts.py     building a draft, the review sheet, publishing into a pack
   packs.py      loading, checking, formatting packs
+  tatoeba.py    example sentences from Tatoeba: download, selection, credits
 api/
   main.py       content API (FastAPI): /languages, /packs/{languageCode}
 packs/          published packs: the source of truth for the app's bundled packs

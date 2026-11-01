@@ -1,4 +1,4 @@
-"""Command line: uv run pipeline {draft,publish,check,format} …  (see README.md)."""
+"""Command line: uv run pipeline {draft,publish,examples,check,format} …  (see README.md)."""
 
 import argparse
 import json
@@ -9,6 +9,7 @@ from . import drafts, packs
 
 PACKS = Path(__file__).resolve().parent.parent / "packs"
 DRAFTS = Path(__file__).resolve().parent.parent / "drafts"
+CACHE = Path(__file__).resolve().parent.parent / ".cache"
 
 
 def main(argv=None) -> int:
@@ -26,6 +27,13 @@ def main(argv=None) -> int:
     publish = commands.add_parser("publish", help="add approved drafts to their pack")
     publish.add_argument("drafts", nargs="+", type=Path)
 
+    examples = commands.add_parser("examples", help="add real example sentences from Tatoeba to the words of a pack")
+    examples.add_argument("--language", required=True, help="pack language, e.g. ro-RO")
+    examples.add_argument("--per-word", type=int, default=3, help="examples kept per word (default 3)")
+    examples.add_argument("--max-words", type=int, default=10, help="longest sentence kept, in words (default 10)")
+    examples.add_argument("--max-unknown", type=int, default=1,
+                          help="words of the sentence the pack does not know yet (default 1)")
+
     check = commands.add_parser("check", help="check packs as the app's PackContentTest does")
     check.add_argument("packs", nargs="*", type=Path)
 
@@ -37,6 +45,8 @@ def main(argv=None) -> int:
         return _draft(args)
     if args.command == "publish":
         return _publish(args.drafts)
+    if args.command == "examples":
+        return _examples(args)
     paths = args.packs or sorted(PACKS.glob("*.json"))
     if args.command == "check":
         failed = False
@@ -65,6 +75,30 @@ def _draft(args) -> int:
     (DRAFTS / f"{args.id}.md").write_text(drafts.review_sheet(result), encoding="utf-8")
     print(f"Draft: drafts/{args.id}.json ({len(result['flags'])} word(s) to check, "
           f"{len(result['aiReview'])} AI remark(s)). Review sheet: drafts/{args.id}.md")
+    return 0
+
+
+def _examples(args) -> int:
+    from . import tatoeba
+
+    pack_path = PACKS / f"{args.language}.json"
+    pack = packs.load(pack_path)
+    language = packs.language_of(pack)
+    corpus = tatoeba.load_corpus(sorted(packs.UI_LANGUAGES), CACHE / "tatoeba")
+    found = tatoeba.select_examples(pack, corpus, per_word=args.per_word, max_words=args.max_words,
+                                    max_unknown=args.max_unknown)
+    with_examples = tatoeba.apply_examples(pack, found)
+    problems = packs.check(pack)
+    if problems:
+        print("Not saved:")
+        for problem in problems:
+            print(f"  - {problem}")
+        return 1
+    packs.save(pack, pack_path)
+    total = len(pack["lemmas"])
+    print(f"{pack_path.name}: {with_examples}/{total} words have examples from Tatoeba "
+          f"({sum(1 for s in corpus.sentences.values() if s.language == language)} {language} sentences read), "
+          f"version {pack['version']}")
     return 0
 
 
