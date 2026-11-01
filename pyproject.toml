@@ -1,0 +1,26 @@
+[project]
+name = "languagelearning-content"
+version = "0.1.0"
+description = "Produces the language packs of the LanguageLearning app: AI drafts, two-opinion base forms, review, publish."
+readme = "README.md"
+requires-python = ">=3.10"
+# `check`, `publish`, `format` and the tests need nothing beyond the standard library.
+dependencies = []
+
+[project.optional-dependencies]
+# Only for `pipeline draft`. Stanza pulls PyTorch (about 500 MB to 1 GB).
+draft = [
+    "stanza>=1.10",
+    "google-genai>=1.0",
+]
+
+[project.scripts]
+pipeline = "pipeline.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "pipeline"
+module-root = ""

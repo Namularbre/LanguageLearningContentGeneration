@@ -1,0 +1,1713 @@
+{
+  "format": 1,
+  "languageCode": "en-GB",
+  "version": 1,
+  "lemmas": [
+    {
+      "id": "en:the",
+      "text": "the",
+      "partOfSpeech": "ARTICLE",
+      "meaning": {"fr": "le, la, les", "ro": "articolul hotărât (-ul, -a)"},
+      "frequencyRank": 1,
+      "ipa": "ðə",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:be",
+      "text": "be",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "être", "ro": "a fi"},
+      "frequencyRank": 2,
+      "ipa": "biː"
+    },
+    {
+      "id": "en:and",
+      "text": "and",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"fr": "et", "ro": "și"},
+      "frequencyRank": 3,
+      "ipa": "ænd"
+    },
+    {
+      "id": "en:a",
+      "text": "a",
+      "partOfSpeech": "ARTICLE",
+      "meaning": {"fr": "un, une", "ro": "un, o"},
+      "frequencyRank": 4,
+      "ipa": "ə"
+    },
+    {
+      "id": "en:to",
+      "text": "to",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"fr": "à, vers", "ro": "la, spre"},
+      "frequencyRank": 5,
+      "ipa": "tuː"
+    },
+    {
+      "id": "en:in",
+      "text": "in",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"fr": "dans, à", "ro": "în"},
+      "frequencyRank": 6,
+      "ipa": "ɪn"
+    },
+    {
+      "id": "en:it",
+      "text": "it",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "il, elle (une chose)", "ro": "el, ea (un lucru)"},
+      "frequencyRank": 7,
+      "ipa": "ɪt"
+    },
+    {
+      "id": "en:he",
+      "text": "he",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "il", "ro": "el"},
+      "frequencyRank": 8,
+      "ipa": "hiː"
+    },
+    {
+      "id": "en:I",
+      "text": "I",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "je", "ro": "eu"},
+      "frequencyRank": 9,
+      "ipa": "aɪ"
+    },
+    {
+      "id": "en:you",
+      "text": "you",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "tu, vous", "ro": "tu, voi, dumneavoastră"},
+      "frequencyRank": 10,
+      "ipa": "juː"
+    },
+    {
+      "id": "en:that",
+      "text": "that",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "cela, ça", "ro": "acela, asta"},
+      "frequencyRank": 11,
+      "ipa": "ðæt",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:this",
+      "text": "this",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "ce, cette, ceci", "ro": "acest, această"},
+      "frequencyRank": 12,
+      "ipa": "ðɪs",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:can",
+      "text": "can",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "pouvoir", "ro": "a putea"},
+      "frequencyRank": 13,
+      "ipa": "kæn"
+    },
+    {
+      "id": "en:would",
+      "text": "would",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "conditionnel : would like = voudrais", "ro": "condițional: would like = aș vrea"},
+      "frequencyRank": 14,
+      "ipa": "wʊd"
+    },
+    {
+      "id": "en:like",
+      "text": "like",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "aimer", "ro": "a plăcea"},
+      "frequencyRank": 15,
+      "ipa": "laɪk"
+    },
+    {
+      "id": "en:take",
+      "text": "take",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "prendre", "ro": "a lua"},
+      "frequencyRank": 16,
+      "ipa": "teɪk"
+    },
+    {
+      "id": "en:walk",
+      "text": "walk",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "marcher, aller à pied", "ro": "a merge pe jos"},
+      "frequencyRank": 17,
+      "ipa": "wɔːk"
+    },
+    {
+      "id": "en:buy",
+      "text": "buy",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "acheter", "ro": "a cumpăra"},
+      "frequencyRank": 18,
+      "ipa": "baɪ"
+    },
+    {
+      "id": "en:wait",
+      "text": "wait",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "attendre", "ro": "a aștepta"},
+      "frequencyRank": 19,
+      "ipa": "weɪt"
+    },
+    {
+      "id": "en:rain",
+      "text": "rain",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "pleuvoir", "ro": "a ploua"},
+      "frequencyRank": 20,
+      "ipa": "reɪn"
+    },
+    {
+      "id": "en:help",
+      "text": "help",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "aider", "ro": "a ajuta"},
+      "frequencyRank": 21,
+      "ipa": "help"
+    },
+    {
+      "id": "en:thank",
+      "text": "thank",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "remercier", "ro": "a mulțumi"},
+      "otherMeanings": {"fr": "thank you = merci", "ro": "thank you = mulțumesc"},
+      "frequencyRank": 22,
+      "ipa": "θæŋk",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:morning",
+      "text": "morning",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "matin", "ro": "dimineață"},
+      "frequencyRank": 23,
+      "ipa": "ˈmɔːnɪŋ"
+    },
+    {
+      "id": "en:afternoon",
+      "text": "afternoon",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "après-midi", "ro": "după-amiază"},
+      "frequencyRank": 24,
+      "ipa": "ˌɑːftəˈnuːn"
+    },
+    {
+      "id": "en:good",
+      "text": "good",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "bon, bien", "ro": "bun"},
+      "frequencyRank": 25,
+      "ipa": "ɡʊd"
+    },
+    {
+      "id": "en:umbrella",
+      "text": "umbrella",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "parapluie", "ro": "umbrelă"},
+      "frequencyRank": 26,
+      "ipa": "ʌmˈbrelə"
+    },
+    {
+      "id": "en:station",
+      "text": "station",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "gare", "ro": "gară"},
+      "frequencyRank": 27,
+      "ipa": "ˈsteɪʃn"
+    },
+    {
+      "id": "en:train",
+      "text": "train",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "train", "ro": "tren"},
+      "frequencyRank": 28,
+      "ipa": "treɪn"
+    },
+    {
+      "id": "en:late",
+      "text": "late",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "en retard", "ro": "întârziat"},
+      "frequencyRank": 29,
+      "ipa": "leɪt"
+    },
+    {
+      "id": "en:again",
+      "text": "again",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "encore, de nouveau", "ro": "din nou"},
+      "frequencyRank": 30,
+      "ipa": "əˈɡen"
+    },
+    {
+      "id": "en:hot",
+      "text": "hot",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "chaud", "ro": "fierbinte"},
+      "frequencyRank": 31,
+      "ipa": "hɒt"
+    },
+    {
+      "id": "en:coffee",
+      "text": "coffee",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "café", "ro": "cafea"},
+      "frequencyRank": 32,
+      "ipa": "ˈkɒfi"
+    },
+    {
+      "id": "en:yes",
+      "text": "yes",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "oui", "ro": "da"},
+      "frequencyRank": 33,
+      "ipa": "jes"
+    },
+    {
+      "id": "en:no",
+      "text": "no",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "non", "ro": "nu"},
+      "frequencyRank": 34,
+      "ipa": "nəʊ"
+    },
+    {
+      "id": "en:two",
+      "text": "two",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"fr": "deux", "ro": "doi, două"},
+      "frequencyRank": 35,
+      "ipa": "tuː"
+    },
+    {
+      "id": "en:three",
+      "text": "three",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"fr": "trois", "ro": "trei"},
+      "frequencyRank": 36,
+      "ipa": "θriː",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:fifty",
+      "text": "fifty",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"fr": "cinquante", "ro": "cincizeci"},
+      "frequencyRank": 37,
+      "ipa": "ˈfɪfti"
+    },
+    {
+      "id": "en:croissant",
+      "text": "croissant",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "croissant", "ro": "corn (croissant)"},
+      "frequencyRank": 38,
+      "ipa": "ˈkwæsɒ̃"
+    },
+    {
+      "id": "en:please",
+      "text": "please",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "s'il vous plaît", "ro": "vă rog, te rog"},
+      "frequencyRank": 39,
+      "ipa": "pliːz"
+    },
+    {
+      "id": "en:anything",
+      "text": "anything",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "quelque chose", "ro": "ceva, orice"},
+      "frequencyRank": 40,
+      "ipa": "ˈeniθɪŋ"
+    },
+    {
+      "id": "en:else",
+      "text": "else",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "d'autre", "ro": "altceva (anything else)"},
+      "frequencyRank": 41,
+      "ipa": "els"
+    },
+    {
+      "id": "en:how",
+      "text": "how",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "comment", "ro": "cum"},
+      "frequencyRank": 42,
+      "ipa": "haʊ"
+    },
+    {
+      "id": "en:much",
+      "text": "much",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "beaucoup", "ro": "mult"},
+      "otherMeanings": {"fr": "how much = combien", "ro": "how much = cât"},
+      "frequencyRank": 43,
+      "ipa": "mʌtʃ"
+    },
+    {
+      "id": "en:pound",
+      "text": "pound",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "livre (monnaie)", "ro": "liră (monedă)"},
+      "frequencyRank": 44,
+      "ipa": "paʊnd"
+    },
+    {
+      "id": "en:she",
+      "text": "she",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "elle", "ro": "ea"},
+      "frequencyRank": 45,
+      "ipa": "ʃiː"
+    },
+    {
+      "id": "en:dog",
+      "text": "dog",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "chien", "ro": "câine"},
+      "frequencyRank": 46,
+      "ipa": "dɒɡ"
+    },
+    {
+      "id": "en:park",
+      "text": "park",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "parc", "ro": "parc"},
+      "frequencyRank": 47,
+      "ipa": "pɑːk"
+    },
+    {
+      "id": "en:every",
+      "text": "every",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "chaque, tous les", "ro": "fiecare"},
+      "frequencyRank": 48,
+      "ipa": "ˈevri"
+    },
+    {
+      "id": "en:evening",
+      "text": "evening",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "soir", "ro": "seară"},
+      "frequencyRank": 49,
+      "ipa": "ˈiːvnɪŋ"
+    },
+    {
+      "id": "en:green",
+      "text": "green",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "vert", "ro": "verde"},
+      "frequencyRank": 50,
+      "ipa": "ɡriːn"
+    },
+    {
+      "id": "en:grass",
+      "text": "grass",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "herbe", "ro": "iarbă"},
+      "frequencyRank": 51,
+      "ipa": "ɡrɑːs"
+    },
+    {
+      "id": "en:sit",
+      "text": "sit",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "s'asseoir, être assis", "ro": "a sta jos"},
+      "frequencyRank": 52,
+      "ipa": "sɪt"
+    },
+    {
+      "id": "en:on",
+      "text": "on",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"fr": "sur", "ro": "pe"},
+      "frequencyRank": 53,
+      "ipa": "ɒn"
+    },
+    {
+      "id": "en:bench",
+      "text": "bench",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "banc", "ro": "bancă"},
+      "frequencyRank": 54,
+      "ipa": "bentʃ"
+    },
+    {
+      "id": "en:read",
+      "text": "read",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "lire", "ro": "a citi"},
+      "frequencyRank": 55,
+      "ipa": "riːd"
+    },
+    {
+      "id": "en:book",
+      "text": "book",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "livre", "ro": "carte"},
+      "frequencyRank": 56,
+      "ipa": "bʊk"
+    },
+    {
+      "id": "en:then",
+      "text": "then",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "ensuite, puis", "ro": "apoi"},
+      "frequencyRank": 57,
+      "ipa": "ðen",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:they",
+      "text": "they",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "ils, elles", "ro": "ei, ele"},
+      "frequencyRank": 58,
+      "ipa": "ðeɪ",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:go",
+      "text": "go",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "aller", "ro": "a merge"},
+      "frequencyRank": 59,
+      "ipa": "ɡəʊ"
+    },
+    {
+      "id": "en:home",
+      "text": "home",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "à la maison, chez soi", "ro": "acasă"},
+      "frequencyRank": 60,
+      "ipa": "həʊm"
+    },
+    {
+      "id": "en:hello",
+      "text": "hello",
+      "partOfSpeech": "INTERJECTION",
+      "meaning": {"fr": "bonjour", "ro": "bună ziua, salut"},
+      "frequencyRank": 61,
+      "ipa": "həˈləʊ"
+    },
+    {
+      "id": "en:what",
+      "text": "what",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"fr": "que, quoi", "ro": "ce"},
+      "frequencyRank": 62,
+      "ipa": "wɒt"
+    },
+    {
+      "id": "en:tea",
+      "text": "tea",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "thé", "ro": "ceai"},
+      "frequencyRank": 63,
+      "ipa": "tiː"
+    },
+    {
+      "id": "en:with",
+      "text": "with",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"fr": "avec", "ro": "cu"},
+      "frequencyRank": 64,
+      "ipa": "wɪð",
+      "pronunciationNote": {
+        "en": "th: the tip of the tongue between the teeth.",
+        "fr": "th : le bout de la langue entre les dents.",
+        "ro": "th: vârful limbii între dinți."
+      }
+    },
+    {
+      "id": "en:milk",
+      "text": "milk",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "lait", "ro": "lapte"},
+      "frequencyRank": 65,
+      "ipa": "mɪlk"
+    },
+    {
+      "id": "en:small",
+      "text": "small",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "petit", "ro": "mic"},
+      "frequencyRank": 66,
+      "ipa": "smɔːl"
+    },
+    {
+      "id": "en:or",
+      "text": "or",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"fr": "ou", "ro": "sau"},
+      "frequencyRank": 67,
+      "ipa": "ɔː"
+    },
+    {
+      "id": "en:large",
+      "text": "large",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "grand", "ro": "mare"},
+      "frequencyRank": 68,
+      "ipa": "lɑːdʒ"
+    },
+    {
+      "id": "en:four",
+      "text": "four",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"fr": "quatre", "ro": "patru"},
+      "frequencyRank": 69,
+      "ipa": "fɔː"
+    },
+    {
+      "id": "en:here",
+      "text": "here",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"fr": "ici", "ro": "aici"},
+      "otherMeanings": {"fr": "here you are = voilà", "ro": "here you are = poftiți"},
+      "frequencyRank": 70,
+      "ipa": "hɪə"
+    },
+    {
+      "id": "en:last",
+      "text": "last",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"fr": "dernier", "ro": "trecut, ultimul"},
+      "frequencyRank": 71,
+      "ipa": "lɑːst"
+    },
+    {
+      "id": "en:Saturday",
+      "text": "Saturday",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "samedi", "ro": "sâmbătă"},
+      "frequencyRank": 72,
+      "ipa": "ˈsætədeɪ"
+    },
+    {
+      "id": "en:market",
+      "text": "market",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "marché", "ro": "piață"},
+      "frequencyRank": 73,
+      "ipa": "ˈmɑːkɪt"
+    },
+    {
+      "id": "en:sister",
+      "text": "sister",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "sœur", "ro": "soră"},
+      "frequencyRank": 74,
+      "ipa": "ˈsɪstə"
+    },
+    {
+      "id": "en:bread",
+      "text": "bread",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "pain", "ro": "pâine"},
+      "frequencyRank": 75,
+      "ipa": "bred"
+    },
+    {
+      "id": "en:cheese",
+      "text": "cheese",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "fromage", "ro": "brânză"},
+      "frequencyRank": 76,
+      "ipa": "tʃiːz"
+    },
+    {
+      "id": "en:apple",
+      "text": "apple",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "pomme", "ro": "măr"},
+      "frequencyRank": 77,
+      "ipa": "ˈæpl"
+    },
+    {
+      "id": "en:so",
+      "text": "so",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"fr": "donc, alors", "ro": "așa că"},
+      "frequencyRank": 78,
+      "ipa": "səʊ"
+    },
+    {
+      "id": "en:drink",
+      "text": "drink",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "boire", "ro": "a bea"},
+      "frequencyRank": 79,
+      "ipa": "drɪŋk"
+    },
+    {
+      "id": "en:watch",
+      "text": "watch",
+      "partOfSpeech": "VERB",
+      "meaning": {"fr": "regarder", "ro": "a se uita la"},
+      "frequencyRank": 80,
+      "ipa": "wɒtʃ"
+    },
+    {
+      "id": "en:film",
+      "text": "film",
+      "partOfSpeech": "NOUN",
+      "meaning": {"fr": "film", "ro": "film"},
+      "frequencyRank": 81,
+      "ipa": "fɪlm"
+    }
+  ],
+  "texts": [
+    {
+      "id": "en-rain",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "A rainy morning",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "It", "lemma": "en:it"},
+            {"text": " "},
+            {
+              "text": "is",
+              "lemma": "en:be",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "raining",
+              "lemma": "en:rain",
+              "formNote": {
+                "en": "-ing form: it is raining = it rains now",
+                "fr": "forme en -ing : it is raining = il pleut (en ce moment)",
+                "ro": "forma -ing: it is raining = plouă (acum)"
+              }
+            },
+            {"text": " "},
+            {"text": "in", "lemma": "en:in"},
+            {"text": " "},
+            {"text": "London"},
+            {"text": " "},
+            {"text": "this", "lemma": "en:this"},
+            {"text": " "},
+            {"text": "morning", "lemma": "en:morning"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "Il pleut à Londres ce matin.", "ro": "Plouă la Londra în această dimineață."}
+        },
+        {
+          "tokens": [
+            {"text": "Tom"},
+            {"text": " "},
+            {
+              "text": "takes",
+              "lemma": "en:take",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "his",
+              "lemma": "en:he",
+              "formNote": {"en": "possessive: his", "fr": "possessif : son, sa, ses", "ro": "posesiv: lui"}
+            },
+            {"text": " "},
+            {"text": "umbrella", "lemma": "en:umbrella"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "walks",
+              "lemma": "en:walk",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "to", "lemma": "en:to"},
+            {"text": " "},
+            {"text": "the", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "station", "lemma": "en:station"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "Tom prend son parapluie et marche jusqu'à la gare.",
+            "ro": "Tom își ia umbrela și merge pe jos până la gară."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "The", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "train", "lemma": "en:train"},
+            {"text": " "},
+            {
+              "text": "is",
+              "lemma": "en:be",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "late", "lemma": "en:late"},
+            {"text": " "},
+            {"text": "again", "lemma": "en:again"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "Le train est encore en retard.", "ro": "Trenul întârzie din nou."}
+        },
+        {
+          "tokens": [
+            {"text": "He", "lemma": "en:he"},
+            {"text": " "},
+            {
+              "text": "buys",
+              "lemma": "en:buy",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "a", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "hot", "lemma": "en:hot"},
+            {"text": " "},
+            {"text": "coffee", "lemma": "en:coffee"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "waits",
+              "lemma": "en:wait",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"fr": "Il achète un café chaud et attend.", "ro": "Își cumpără o cafea fierbinte și așteaptă."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-bakery",
+      "level": "A2",
+      "kind": "DIALOGUE",
+      "title": "At the bakery",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Good", "lemma": "en:good"},
+            {"text": " "},
+            {"text": "afternoon", "lemma": "en:afternoon"},
+            {"text": "! "},
+            {"text": "Can", "lemma": "en:can"},
+            {"text": " "},
+            {"text": "I", "lemma": "en:I"},
+            {"text": " "},
+            {"text": "help", "lemma": "en:help"},
+            {"text": " "},
+            {"text": "you", "lemma": "en:you"},
+            {"text": "?"}
+          ],
+          "translation": {"fr": "— Bonjour ! Je peux vous aider ?", "ro": "— Bună ziua! Vă pot ajuta?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Yes", "lemma": "en:yes"},
+            {"text": ", "},
+            {"text": "I", "lemma": "en:I"},
+            {"text": " "},
+            {"text": "would", "lemma": "en:would"},
+            {"text": " "},
+            {"text": "like", "lemma": "en:like"},
+            {"text": " "},
+            {"text": "two", "lemma": "en:two"},
+            {"text": " "},
+            {
+              "text": "croissants",
+              "lemma": "en:croissant",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": ", "},
+            {"text": "please", "lemma": "en:please"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "— Oui, je voudrais deux croissants, s'il vous plaît.",
+            "ro": "— Da, aș vrea două cornuri, vă rog."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Anything", "lemma": "en:anything"},
+            {"text": " "},
+            {"text": "else", "lemma": "en:else"},
+            {"text": "?"}
+          ],
+          "translation": {"fr": "— Autre chose ?", "ro": "— Altceva?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "No", "lemma": "en:no"},
+            {"text": ", "},
+            {"text": "thank", "lemma": "en:thank"},
+            {"text": " "},
+            {"text": "you", "lemma": "en:you"},
+            {"text": ". "},
+            {"text": "How", "lemma": "en:how"},
+            {"text": " "},
+            {"text": "much", "lemma": "en:much"},
+            {"text": " "},
+            {
+              "text": "is",
+              "lemma": "en:be",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "that", "lemma": "en:that"},
+            {"text": "?"}
+          ],
+          "translation": {"fr": "— Non, merci. Ça fait combien ?", "ro": "— Nu, mulțumesc. Cât costă?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "That", "lemma": "en:that"},
+            {"text": " "},
+            {
+              "text": "is",
+              "lemma": "en:be",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "three", "lemma": "en:three"},
+            {"text": " "},
+            {
+              "text": "pounds",
+              "lemma": "en:pound",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": " "},
+            {"text": "fifty", "lemma": "en:fifty"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "— Ça fait trois livres cinquante.", "ro": "— Face trei lire și cincizeci."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-park",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "A walk in the park",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Anna"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "her",
+              "lemma": "en:she",
+              "formNote": {"en": "possessive: her", "fr": "possessif : son, sa, ses (à elle)", "ro": "posesiv: ei"}
+            },
+            {"text": " "},
+            {"text": "dog", "lemma": "en:dog"},
+            {"text": " "},
+            {"text": "walk", "lemma": "en:walk"},
+            {"text": " "},
+            {"text": "in", "lemma": "en:in"},
+            {"text": " "},
+            {"text": "the", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "park", "lemma": "en:park"},
+            {"text": " "},
+            {"text": "every", "lemma": "en:every"},
+            {"text": " "},
+            {"text": "evening", "lemma": "en:evening"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "Anna et son chien se promènent au parc chaque soir.",
+            "ro": "Anna și câinele ei se plimbă în parc în fiecare seară."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "The", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "dog", "lemma": "en:dog"},
+            {"text": " "},
+            {
+              "text": "likes",
+              "lemma": "en:like",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "the", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "green", "lemma": "en:green"},
+            {"text": " "},
+            {"text": "grass", "lemma": "en:grass"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "Le chien aime l'herbe verte.", "ro": "Câinelui îi place iarba verde."}
+        },
+        {
+          "tokens": [
+            {"text": "Anna"},
+            {"text": " "},
+            {
+              "text": "sits",
+              "lemma": "en:sit",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "on", "lemma": "en:on"},
+            {"text": " "},
+            {"text": "a", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "bench", "lemma": "en:bench"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "reads",
+              "lemma": "en:read",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "a", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "book", "lemma": "en:book"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "Anna s'assoit sur un banc et lit un livre.",
+            "ro": "Anna stă pe o bancă și citește o carte."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Then", "lemma": "en:then"},
+            {"text": " "},
+            {"text": "they", "lemma": "en:they"},
+            {"text": " "},
+            {"text": "walk", "lemma": "en:walk"},
+            {"text": " "},
+            {"text": "home", "lemma": "en:home"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "Ensuite, ils rentrent à pied à la maison.", "ro": "Apoi merg pe jos acasă."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-cafe",
+      "level": "A1",
+      "kind": "DIALOGUE",
+      "title": "At the café",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Hello", "lemma": "en:hello"},
+            {"text": "! "},
+            {"text": "What", "lemma": "en:what"},
+            {"text": " "},
+            {"text": "would", "lemma": "en:would"},
+            {"text": " "},
+            {"text": "you", "lemma": "en:you"},
+            {"text": " "},
+            {"text": "like", "lemma": "en:like"},
+            {"text": "?"}
+          ],
+          "translation": {"fr": "— Bonjour ! Qu'est-ce que vous désirez ?", "ro": "— Bună ziua! Ce doriți?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "A", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "tea", "lemma": "en:tea"},
+            {"text": " "},
+            {"text": "with", "lemma": "en:with"},
+            {"text": " "},
+            {"text": "milk", "lemma": "en:milk"},
+            {"text": ", "},
+            {"text": "please", "lemma": "en:please"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "— Un thé au lait, s'il vous plaît.", "ro": "— Un ceai cu lapte, vă rog."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Small", "lemma": "en:small"},
+            {"text": " "},
+            {"text": "or", "lemma": "en:or"},
+            {"text": " "},
+            {"text": "large", "lemma": "en:large"},
+            {"text": "?"}
+          ],
+          "translation": {"fr": "— Petit ou grand ?", "ro": "— Mic sau mare?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Small", "lemma": "en:small"},
+            {"text": ", "},
+            {"text": "please", "lemma": "en:please"},
+            {"text": ". "},
+            {"text": "And", "lemma": "en:and"},
+            {"text": " "},
+            {"text": "a", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "croissant", "lemma": "en:croissant"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "— Petit, s'il vous plaît. Et un croissant.", "ro": "— Mic, vă rog. Și un corn."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "That", "lemma": "en:that"},
+            {"text": " "},
+            {
+              "text": "is",
+              "lemma": "en:be",
+              "formNote": {"en": "present, he/she/it", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "four", "lemma": "en:four"},
+            {"text": " "},
+            {
+              "text": "pounds",
+              "lemma": "en:pound",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"fr": "— Ça fait quatre livres.", "ro": "— Face patru lire."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Here", "lemma": "en:here"},
+            {"text": " "},
+            {"text": "you", "lemma": "en:you"},
+            {"text": " "},
+            {
+              "text": "are",
+              "lemma": "en:be",
+              "formNote": {
+                "en": "present, you/we/they",
+                "fr": "présent, tu/nous/vous/ils",
+                "ro": "prezent, tu/noi/voi/ei"
+              }
+            },
+            {"text": ". "},
+            {"text": "Thank", "lemma": "en:thank"},
+            {"text": " "},
+            {"text": "you", "lemma": "en:you"},
+            {"text": "!"}
+          ],
+          "translation": {"fr": "— Voilà. Merci !", "ro": "— Poftiți. Mulțumesc!"}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-weekend",
+      "level": "A2",
+      "kind": "STORY",
+      "title": "Last weekend",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Last", "lemma": "en:last"},
+            {"text": " "},
+            {"text": "Saturday", "lemma": "en:Saturday"},
+            {"text": ", "},
+            {"text": "Tom"},
+            {"text": " "},
+            {
+              "text": "went",
+              "lemma": "en:go",
+              "formNote": {"en": "past simple, irregular", "fr": "prétérit irrégulier", "ro": "past simple, neregulat"}
+            },
+            {"text": " "},
+            {"text": "to", "lemma": "en:to"},
+            {"text": " "},
+            {"text": "the", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "market", "lemma": "en:market"},
+            {"text": " "},
+            {"text": "with", "lemma": "en:with"},
+            {"text": " "},
+            {
+              "text": "his",
+              "lemma": "en:he",
+              "formNote": {"en": "possessive: his", "fr": "possessif : son, sa, ses", "ro": "posesiv: lui"}
+            },
+            {"text": " "},
+            {"text": "sister", "lemma": "en:sister"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "Samedi dernier, Tom est allé au marché avec sa sœur.",
+            "ro": "Sâmbăta trecută, Tom a mers la piață cu sora lui."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "They", "lemma": "en:they"},
+            {"text": " "},
+            {
+              "text": "bought",
+              "lemma": "en:buy",
+              "formNote": {"en": "past simple, irregular", "fr": "prétérit irrégulier", "ro": "past simple, neregulat"}
+            },
+            {"text": " "},
+            {"text": "bread", "lemma": "en:bread"},
+            {"text": ", "},
+            {"text": "cheese", "lemma": "en:cheese"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "apples",
+              "lemma": "en:apple",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "Ils ont acheté du pain, du fromage et des pommes.",
+            "ro": "Au cumpărat pâine, brânză și mere."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "In", "lemma": "en:in"},
+            {"text": " "},
+            {"text": "the", "lemma": "en:the"},
+            {"text": " "},
+            {"text": "afternoon", "lemma": "en:afternoon"},
+            {"text": ", "},
+            {"text": "it", "lemma": "en:it"},
+            {"text": " "},
+            {
+              "text": "rained",
+              "lemma": "en:rain",
+              "formNote": {"en": "past simple: -ed", "fr": "prétérit (past simple) : -ed", "ro": "past simple: -ed"}
+            },
+            {"text": ", "},
+            {"text": "so", "lemma": "en:so"},
+            {"text": " "},
+            {"text": "they", "lemma": "en:they"},
+            {"text": " "},
+            {
+              "text": "went",
+              "lemma": "en:go",
+              "formNote": {"en": "past simple, irregular", "fr": "prétérit irrégulier", "ro": "past simple, neregulat"}
+            },
+            {"text": " "},
+            {"text": "home", "lemma": "en:home"},
+            {"text": "."}
+          ],
+          "translation": {
+            "fr": "L'après-midi, il a plu, alors ils sont rentrés.",
+            "ro": "După-amiază a plouat, așa că s-au dus acasă."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "They", "lemma": "en:they"},
+            {"text": " "},
+            {
+              "text": "drank",
+              "lemma": "en:drink",
+              "formNote": {"en": "past simple, irregular", "fr": "prétérit irrégulier", "ro": "past simple, neregulat"}
+            },
+            {"text": " "},
+            {"text": "tea", "lemma": "en:tea"},
+            {"text": " "},
+            {"text": "and", "lemma": "en:and"},
+            {"text": " "},
+            {
+              "text": "watched",
+              "lemma": "en:watch",
+              "formNote": {"en": "past simple: -ed", "fr": "prétérit (past simple) : -ed", "ro": "past simple: -ed"}
+            },
+            {"text": " "},
+            {"text": "a", "lemma": "en:a"},
+            {"text": " "},
+            {"text": "film", "lemma": "en:film"},
+            {"text": "."}
+          ],
+          "translation": {"fr": "Ils ont bu du thé et regardé un film.", "ro": "Au băut ceai și s-au uitat la un film."}
+        }
+      ],
+      "review": "ai"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "en-01-present",
+      "order": 1,
+      "title": {
+        "en": "Present simple and present continuous",
+        "fr": "Present simple et present continuous",
+        "ro": "Present simple și present continuous"
+      },
+      "summary": {
+        "en": "Two present tenses where French and Romanian have one.",
+        "fr": "Deux présents là où le français et le roumain n'en ont qu'un.",
+        "ro": "Două timpuri prezente, acolo unde franceza și româna au unul singur."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Present simple: habits and facts",
+            "fr": "Present simple : les habitudes et les vérités",
+            "ro": "Present simple: obiceiuri și adevăruri generale"
+          },
+          "body": {
+            "en": "It describes what is generally true or what you do regularly.\nIn the third person singular, the verb takes an -s: he works, she lives.\nCommon words: always, usually, often, never, every day.",
+            "fr": "Il décrit ce qui est vrai en général ou ce qu'on fait régulièrement.\nÀ la 3e personne du singulier, le verbe prend un -s : he works, she lives.\nMots fréquents : always, usually, often, never, every day.",
+            "ro": "Descrie ce este adevărat în general sau ce faci în mod regulat.\nLa persoana a III-a singular, verbul primește -s: he works, she lives.\nCuvinte frecvente: always, usually, often, never, every day."
+          },
+          "examples": [
+            {
+              "text": "I work in London.",
+              "translation": {"fr": "Je travaille à Londres.", "ro": "Lucrez la Londra."}
+            },
+            {
+              "text": "She lives near the station.",
+              "translation": {"fr": "Elle habite près de la gare.", "ro": "Locuiește lângă gară."}
+            },
+            {
+              "text": "Water boils at a hundred degrees.",
+              "translation": {"fr": "L'eau bout à cent degrés.", "ro": "Apa fierbe la o sută de grade."}
+            },
+            {
+              "text": "We usually have tea at five.",
+              "translation": {
+                "fr": "Nous prenons généralement le thé à cinq heures.",
+                "ro": "De obicei bem ceai la ora cinci."
+              }
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Present continuous: what is happening now",
+            "fr": "Present continuous : ce qui se passe maintenant",
+            "ro": "Present continuous: ce se întâmplă acum"
+          },
+          "body": {
+            "en": "be + verb + -ing. It describes an action in progress or a temporary situation.\nCommon words: now, at the moment, this week.",
+            "fr": "be + verbe en -ing. Il décrit une action en cours ou une situation temporaire.\nMots fréquents : now, at the moment, this week.",
+            "ro": "be + verb cu -ing. Descrie o acțiune în desfășurare sau o situație temporară.\nCuvinte frecvente: now, at the moment, this week."
+          },
+          "examples": [
+            {
+              "text": "I'm working at the moment.",
+              "translation": {"fr": "Je suis en train de travailler.", "ro": "Lucrez în acest moment."}
+            },
+            {
+              "text": "It's raining.",
+              "translation": {"fr": "Il pleut (en ce moment).", "ro": "Plouă (acum)."}
+            },
+            {
+              "text": "She's staying with friends this week.",
+              "translation": {"fr": "Elle loge chez des amis cette semaine.", "ro": "Stă la niște prieteni săptămâna asta."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with French and Romanian",
+            "fr": "Comparaison avec le français et le roumain",
+            "ro": "Comparație cu franceza și româna"
+          },
+          "body": {
+            "en": "French \"je travaille\" and Romanian \"lucrez\" translate as I work (in general) or I'm working (now), depending on the context. State verbs (know, like, want, understand) stay in the present simple: I know, never I'm knowing.",
+            "fr": "« Je travaille » (comme le roumain « lucrez ») se traduit selon le contexte : I work (en général) ou I'm working (maintenant). Les verbes d'état (know, like, want, understand) restent au present simple : on dit I know, jamais I'm knowing.",
+            "ro": "„Lucrez” (ca și francezul „je travaille”) se traduce după context: I work (în general) sau I'm working (acum). Verbele de stare (know, like, want, understand) rămân la present simple: I know, niciodată I'm knowing."
+          },
+          "examples": [
+            {
+              "text": "I know the answer.",
+              "translation": {"fr": "Je connais la réponse.", "ro": "Știu răspunsul."}
+            },
+            {"text": "Do you understand?", "translation": {"fr": "Tu comprends ?", "ro": "Înțelegi?"}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-02-questions",
+      "order": 2,
+      "title": {
+        "en": "Questions and negatives with do",
+        "fr": "Questions et négations avec do",
+        "ro": "Întrebări și negații cu do"
+      },
+      "summary": {
+        "en": "The auxiliary do / does / did.",
+        "fr": "L'auxiliaire do / does / did.",
+        "ro": "Auxiliarul do / does / did."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Asking a question", "fr": "Poser une question", "ro": "Cum pui o întrebare"},
+          "body": {
+            "en": "In the present simple, a question puts do (does in the third person) before the subject. The verb then goes back to its base form: Does she work? (not Does she works?).\nWith be and modal verbs (can, must…), just swap them with the subject: Are you ready? Can you swim?",
+            "fr": "Au present simple, la question se forme avec do (does à la 3e personne) devant le sujet. Le verbe revient alors à la forme de base : Does she work? (pas Does she works?).\nAvec be et les modaux (can, must…), on inverse simplement : Are you ready? Can you swim?",
+            "ro": "La present simple, întrebarea se formează cu do (does la persoana a III-a) înaintea subiectului. Verbul revine apoi la forma de bază: Does she work? (nu Does she works?).\nCu be și cu verbele modale (can, must…), doar se inversează: Are you ready? Can you swim?"
+          },
+          "examples": [
+            {
+              "text": "Do you like coffee?",
+              "translation": {"fr": "Tu aimes le café ?", "ro": "Îți place cafeaua?"}
+            },
+            {
+              "text": "Does he speak French?",
+              "translation": {"fr": "Est-ce qu'il parle français ?", "ro": "Vorbește franceză?"}
+            },
+            {
+              "text": "Where do they live?",
+              "translation": {"fr": "Où habitent-ils ?", "ro": "Unde locuiesc?"}
+            },
+            {"text": "Are you ready?", "translation": {"fr": "Tu es prêt ?", "ro": "Ești gata?"}}
+          ]
+        },
+        {
+          "heading": {"en": "Negatives", "fr": "La négation", "ro": "Negația"},
+          "body": {
+            "en": "do not (don't) / does not (doesn't) + base verb.\nIn the past, did not (didn't) for every person, and the verb stays in its base form: I didn't go (not I didn't went).",
+            "fr": "do not (don't) / does not (doesn't) + verbe de base.\nAu passé, did not (didn't) pour toutes les personnes, et le verbe reste à la base : I didn't go (pas I didn't went).",
+            "ro": "do not (don't) / does not (doesn't) + verbul la forma de bază.\nLa trecut, did not (didn't) pentru toate persoanele, iar verbul rămâne la forma de bază: I didn't go (nu I didn't went)."
+          },
+          "examples": [
+            {
+              "text": "I don't eat meat.",
+              "translation": {"fr": "Je ne mange pas de viande.", "ro": "Nu mănânc carne."}
+            },
+            {"text": "She doesn't drive.", "translation": {"fr": "Elle ne conduit pas.", "ro": "Nu conduce."}},
+            {
+              "text": "We didn't go out yesterday.",
+              "translation": {"fr": "Nous ne sommes pas sortis hier.", "ro": "Nu am ieșit ieri."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with French and Romanian",
+            "fr": "Comparaison avec le français et le roumain",
+            "ro": "Comparație cu franceza și româna"
+          },
+          "body": {
+            "en": "French and Romanian can ask a question with intonation alone (\"Tu viens ?\", \"Vii?\"). In English, the auxiliary is required: Are you coming?, Do you want some? For negatives, English needs don't / doesn't / didn't, where Romanian puts nu before the verb and French surrounds it with ne … pas.",
+            "fr": "Le français, comme le roumain (« Vii? »), peut poser une question par l'intonation seule (« Tu viens ? »). En anglais, l'auxiliaire est obligatoire : Are you coming?, Do you want some? Pour la négation, l'anglais a besoin de don't / doesn't / didn't, là où le français entoure le verbe (ne … pas) et le roumain place nu devant.",
+            "ro": "Româna, ca și franceza („Tu viens ?”), poate pune o întrebare doar prin intonație („Vii?”). În engleză, auxiliarul este obligatoriu: Are you coming?, Do you want some? Pentru negație, engleza are nevoie de don't / doesn't / didn't, acolo unde româna pune nu înaintea verbului, iar franceza îl încadrează cu ne … pas."
+          },
+          "examples": [
+            {"text": "Are you coming?", "translation": {"fr": "Tu viens ?", "ro": "Vii?"}},
+            {"text": "Did you see it?", "translation": {"fr": "Tu l'as vu ?", "ro": "L-ai văzut?"}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-03-present-perfect",
+      "order": 3,
+      "title": {"en": "The present perfect", "fr": "Le present perfect", "ro": "Present perfect"},
+      "summary": {
+        "en": "have + past participle: a past linked to the present.",
+        "fr": "have + participe passé : un passé relié au présent.",
+        "ro": "have + participiu trecut: un trecut legat de prezent."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Form", "fr": "Formation", "ro": "Formare"},
+          "body": {
+            "en": "have / has + past participle: I have finished, she has eaten.\nIrregular participles must be learnt by heart: go → gone, see → seen, be → been.",
+            "fr": "have / has + participe passé : I have finished, she has eaten.\nLes participes irréguliers s'apprennent par cœur : go → gone, see → seen, be → been.",
+            "ro": "have / has + participiu trecut: I have finished, she has eaten.\nParticipiile neregulate se învață pe de rost: go → gone, see → seen, be → been."
+          },
+          "examples": [
+            {
+              "text": "I've finished my homework.",
+              "translation": {"fr": "J'ai fini mes devoirs.", "ro": "Mi-am terminat temele."}
+            },
+            {
+              "text": "She has lost her keys.",
+              "translation": {"fr": "Elle a perdu ses clés.", "ro": "Și-a pierdut cheile."}
+            },
+            {
+              "text": "Have you ever been to Scotland?",
+              "translation": {"fr": "Es-tu déjà allé en Écosse ?", "ro": "Ai fost vreodată în Scoția?"}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Present perfect or past simple?",
+            "fr": "Present perfect ou prétérit ?",
+            "ro": "Present perfect sau past simple?"
+          },
+          "body": {
+            "en": "Past simple (I saw): a finished action at a definite time in the past (yesterday, in 2020, last week).\nPresent perfect (I have seen): no definite time, or a link with now (ever, never, already, yet, just, since, for).",
+            "fr": "Prétérit (I saw) : action terminée à un moment précis du passé (yesterday, in 2020, last week).\nPresent perfect (I have seen) : pas de moment précis, ou lien avec maintenant (ever, never, already, yet, just, since, for).",
+            "ro": "Past simple (I saw): o acțiune încheiată la un moment precis din trecut (yesterday, in 2020, last week).\nPresent perfect (I have seen): fără moment precis sau cu legătură cu prezentul (ever, never, already, yet, just, since, for)."
+          },
+          "examples": [
+            {
+              "text": "I saw that film last week.",
+              "translation": {"fr": "J'ai vu ce film la semaine dernière.", "ro": "Am văzut filmul acela săptămâna trecută."}
+            },
+            {
+              "text": "I've already seen that film.",
+              "translation": {"fr": "J'ai déjà vu ce film.", "ro": "Am văzut deja filmul acela."}
+            },
+            {
+              "text": "I've lived here for three years.",
+              "translation": {"fr": "J'habite ici depuis trois ans.", "ro": "Locuiesc aici de trei ani."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with French and Romanian",
+            "fr": "Comparaison avec le français et le roumain",
+            "ro": "Comparație cu franceza și româna"
+          },
+          "body": {
+            "en": "The French passé composé and the Romanian perfect compus often translate as a past simple: \"Je l'ai vu hier\" / \"L-am văzut ieri\" is I saw him yesterday, never I have seen him yesterday.\nFrench \"depuis\" and Romanian \"din\" / \"de\" with the present become a present perfect: \"J'habite ici depuis 2020\" / \"Locuiesc aici din 2020\" is I've lived here since 2020.",
+            "fr": "Le passé composé français (comme le perfect compus roumain) se traduit souvent par un prétérit : « Je l'ai vu hier » donne I saw him yesterday, jamais I have seen him yesterday.\n« Depuis » + présent devient un present perfect : « J'habite ici depuis 2020 » donne I've lived here since 2020.",
+            "ro": "Perfectul compus românesc (ca și passé composé francez) se traduce adesea printr-un past simple: „L-am văzut ieri” devine I saw him yesterday, niciodată I have seen him yesterday.\n„Din” / „de” + prezent devine present perfect: „Locuiesc aici din 2020” devine I've lived here since 2020."
+          },
+          "examples": [
+            {
+              "text": "I saw him yesterday.",
+              "translation": {"fr": "Je l'ai vu hier.", "ro": "L-am văzut ieri."}
+            },
+            {
+              "text": "I've lived here since 2020.",
+              "translation": {"fr": "J'habite ici depuis 2020.", "ro": "Locuiesc aici din 2020."}
+            }
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-04-articles",
+      "order": 4,
+      "title": {"en": "a, an and the", "fr": "a, an et the", "ro": "a, an și the"},
+      "summary": {
+        "en": "When to use an article, and when not to.",
+        "fr": "Quand mettre un article, et quand s'en passer.",
+        "ro": "Când folosim articolul și când nu."
+      },
+      "sections": [
+        {
+          "heading": {"en": "a or an", "fr": "a ou an", "ro": "a sau an"},
+          "body": {
+            "en": "The choice depends on the first sound, not the first letter: a book, a university; an apple, an hour.",
+            "fr": "Le choix dépend du premier son, pas de la première lettre : a book, a university ; an apple, an hour (le h ne se prononce pas).",
+            "ro": "Alegerea depinde de primul sunet, nu de prima literă: a book, a university; an apple, an hour (h nu se pronunță)."
+          },
+          "examples": [
+            {"text": "a book", "translation": {"fr": "un livre", "ro": "o carte"}},
+            {"text": "an apple", "translation": {"fr": "une pomme", "ro": "un măr"}},
+            {"text": "an hour", "translation": {"fr": "une heure", "ro": "o oră"}},
+            {"text": "a university", "translation": {"fr": "une université", "ro": "o universitate"}}
+          ]
+        },
+        {
+          "heading": {"en": "No article", "fr": "Pas d'article", "ro": "Fără articol"},
+          "body": {
+            "en": "Plural or uncountable nouns used in general take no article: I like coffee, dogs are friendly. the means a specific one: the coffee in this cup.",
+            "fr": "Un nom au pluriel ou indénombrable pris au sens général n'a pas d'article : I like coffee (j'aime le café), dogs are friendly. the désigne une chose précise : the coffee in this cup.",
+            "ro": "Substantivele la plural sau nenumărabile, luate în general, nu au articol: I like coffee (îmi place cafeaua), dogs are friendly. the arată ceva anume: the coffee in this cup."
+          },
+          "examples": [
+            {"text": "I like coffee.", "translation": {"fr": "J'aime le café.", "ro": "Îmi place cafeaua."}},
+            {
+              "text": "Dogs are friendly.",
+              "translation": {"fr": "Les chiens sont gentils.", "ro": "Câinii sunt prietenoși."}
+            },
+            {
+              "text": "The coffee is cold.",
+              "translation": {"fr": "Le café est froid.", "ro": "Cafeaua e rece."}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with French and Romanian",
+            "fr": "Comparaison avec le français et le roumain",
+            "ro": "Comparație cu franceza și româna"
+          },
+          "body": {
+            "en": "French and Romanian use the definite article for general statements (j'aime le café, îmi place cafeaua); English does not.",
+            "fr": "En français, on dit « j'aime le café » avec un article ; en anglais, le sens général se dit sans article : I like coffee. C'est l'erreur la plus fréquente des francophones.",
+            "ro": "În română spunem „îmi place cafeaua”, cu articol; în engleză, sensul general se exprimă fără articol: I like coffee."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-05-past-simple",
+      "order": 5,
+      "title": {"en": "The past simple", "fr": "Le past simple", "ro": "Past simple"},
+      "summary": {
+        "en": "Finished actions: -ed and irregular verbs.",
+        "fr": "Les actions terminées : -ed et verbes irréguliers.",
+        "ro": "Acțiuni încheiate: -ed și verbe neregulate."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Regular verbs: -ed", "fr": "Verbes réguliers : -ed", "ro": "Verbe regulate: -ed"},
+          "body": {
+            "en": "Add -ed, the same for every person: I worked, she played, they visited.\nIt is used with a finished time: yesterday, last week, in 2020.",
+            "fr": "On ajoute -ed, identique à toutes les personnes : I worked, she played, they visited.\nIl s'emploie avec un moment terminé : yesterday, last week, in 2020.",
+            "ro": "Se adaugă -ed, la fel pentru toate persoanele: I worked, she played, they visited.\nSe folosește cu un moment încheiat: yesterday, last week, in 2020."
+          },
+          "examples": [
+            {
+              "text": "I worked yesterday.",
+              "translation": {"fr": "J'ai travaillé hier.", "ro": "Am lucrat ieri."}
+            },
+            {
+              "text": "She visited London.",
+              "translation": {"fr": "Elle a visité Londres.", "ro": "Ea a vizitat Londra."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Irregular verbs", "fr": "Verbes irréguliers", "ro": "Verbe neregulate"},
+          "body": {
+            "en": "The most common verbs are irregular and must be learnt: go → went, see → saw, have → had, buy → bought.\nQuestions and negatives use did + base form: Did you go? I didn't go.",
+            "fr": "Les verbes les plus courants sont irréguliers et s'apprennent par cœur : go → went, see → saw, have → had, buy → bought.\nQuestions et négations : did + base verbale. Did you go? I didn't go.",
+            "ro": "Cele mai folosite verbe sunt neregulate și trebuie învățate: go → went, see → saw, have → had, buy → bought.\nÎntrebările și negațiile folosesc did + forma de bază: Did you go? I didn't go."
+          },
+          "examples": [
+            {
+              "text": "We went to the market.",
+              "translation": {"fr": "Nous sommes allés au marché.", "ro": "Am mers la piață."}
+            },
+            {
+              "text": "I bought some bread.",
+              "translation": {"fr": "J'ai acheté du pain.", "ro": "Am cumpărat pâine."}
+            },
+            {
+              "text": "Did you see the film?",
+              "translation": {"fr": "Tu as vu le film ?", "ro": "Ai văzut filmul?"}
+            },
+            {"text": "I didn't go.", "translation": {"fr": "Je n'y suis pas allé.", "ro": "Nu m-am dus."}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "en-06-phrasal-verbs",
+      "order": 6,
+      "title": {"en": "Phrasal verbs", "fr": "Les phrasal verbs", "ro": "Phrasal verbs"},
+      "summary": {
+        "en": "Verb + particle, with a meaning of its own.",
+        "fr": "Verbe + particule, avec un sens à part.",
+        "ro": "Verb + particulă, cu un sens propriu."
+      },
+      "sections": [
+        {
+          "heading": {"en": "One meaning, two words", "fr": "Un sens, deux mots", "ro": "Un sens, două cuvinte"},
+          "body": {
+            "en": "A phrasal verb is learnt as a whole: its meaning often cannot be guessed from its parts. give up = stop trying, get up = leave your bed, look for = search.",
+            "fr": "Un phrasal verb s'apprend en bloc : son sens se devine rarement à partir de ses mots. give up = abandonner, get up = se lever, look for = chercher.",
+            "ro": "Un phrasal verb se învață ca întreg: sensul lui rareori se deduce din părți. give up = a renunța, get up = a se trezi, look for = a căuta."
+          },
+          "examples": [
+            {"text": "Don't give up!", "translation": {"fr": "N'abandonne pas !", "ro": "Nu renunța!"}},
+            {
+              "text": "I get up at seven.",
+              "translation": {"fr": "Je me lève à sept heures.", "ro": "Mă trezesc la șapte."}
+            },
+            {
+              "text": "I'm looking for my keys.",
+              "translation": {"fr": "Je cherche mes clés.", "ro": "Îmi caut cheile."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Where the object goes", "fr": "La place du complément", "ro": "Locul complementului"},
+          "body": {
+            "en": "With many phrasal verbs, a noun can go before or after the particle: turn off the light, turn the light off. A pronoun always goes in the middle: turn it off.",
+            "fr": "Avec beaucoup de phrasal verbs, un nom peut se placer avant ou après la particule : turn off the light, turn the light off. Un pronom se met toujours au milieu : turn it off.",
+            "ro": "La multe phrasal verbs, substantivul poate sta înainte sau după particulă: turn off the light, turn the light off. Pronumele stă mereu la mijloc: turn it off."
+          },
+          "examples": [
+            {
+              "text": "Turn off the light.",
+              "translation": {"fr": "Éteins la lumière.", "ro": "Stinge lumina."}
+            },
+            {"text": "Turn it off.", "translation": {"fr": "Éteins-la.", "ro": "Stinge-o."}}
+          ]
+        }
+      ],
+      "review": "ai"
+    }
+  ]
+}

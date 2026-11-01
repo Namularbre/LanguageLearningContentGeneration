@@ -1,0 +1,2414 @@
+{
+  "format": 1,
+  "languageCode": "ro-RO",
+  "version": 1,
+  "lemmas": [
+    {
+      "id": "ro:și",
+      "text": "și",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "and", "fr": "et"},
+      "frequencyRank": 1,
+      "ipa": "ʃi",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:în",
+      "text": "în",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "in, into", "fr": "dans, en"},
+      "frequencyRank": 2,
+      "ipa": "ɨn",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:la",
+      "text": "la",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "at, to", "fr": "à"},
+      "frequencyRank": 3,
+      "ipa": "la"
+    },
+    {
+      "id": "ro:a fi",
+      "text": "a fi",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to be", "fr": "être"},
+      "frequencyRank": 4,
+      "ipa": "a fi"
+    },
+    {
+      "id": "ro:un",
+      "text": "un",
+      "partOfSpeech": "ARTICLE",
+      "meaning": {"en": "a, an", "fr": "un, une"},
+      "frequencyRank": 5,
+      "ipa": "un"
+    },
+    {
+      "id": "ro:de",
+      "text": "de",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "of, from", "fr": "de"},
+      "frequencyRank": 6,
+      "ipa": "de"
+    },
+    {
+      "id": "ro:pe",
+      "text": "pe",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "on", "fr": "sur"},
+      "frequencyRank": 7,
+      "ipa": "pe"
+    },
+    {
+      "id": "ro:ce",
+      "text": "ce",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "what", "fr": "que, quoi"},
+      "frequencyRank": 8,
+      "ipa": "t͡ʃe"
+    },
+    {
+      "id": "ro:el",
+      "text": "el",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "he", "fr": "il"},
+      "frequencyRank": 9,
+      "ipa": "jel"
+    },
+    {
+      "id": "ro:ea",
+      "text": "ea",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "she", "fr": "elle"},
+      "frequencyRank": 10,
+      "ipa": "ja"
+    },
+    {
+      "id": "ro:mai",
+      "text": "mai",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "more, still", "fr": "plus, encore"},
+      "frequencyRank": 11,
+      "ipa": "maj"
+    },
+    {
+      "id": "ro:a face",
+      "text": "a face",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to do, to make", "fr": "faire"},
+      "otherMeanings": {"en": "Ce mai faci? = How are you?", "fr": "Ce mai faci ? = Comment vas-tu ?"},
+      "frequencyRank": 12,
+      "ipa": "a ˈfat͡ʃe"
+    },
+    {
+      "id": "ro:pentru",
+      "text": "pentru",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "for", "fr": "pour"},
+      "frequencyRank": 13,
+      "ipa": "ˈpentru"
+    },
+    {
+      "id": "ro:din",
+      "text": "din",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "from, out of", "fr": "de, hors de"},
+      "frequencyRank": 14,
+      "ipa": "din"
+    },
+    {
+      "id": "ro:sau",
+      "text": "sau",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "or", "fr": "ou"},
+      "frequencyRank": 15,
+      "ipa": "saw"
+    },
+    {
+      "id": "ro:dacă",
+      "text": "dacă",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "if", "fr": "si"},
+      "frequencyRank": 16,
+      "ipa": "ˈdakə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:tot",
+      "text": "tot",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "all, whole", "fr": "tout"},
+      "frequencyRank": 17,
+      "ipa": "tot"
+    },
+    {
+      "id": "ro:bun",
+      "text": "bun",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "good", "fr": "bon"},
+      "frequencyRank": 18,
+      "ipa": "bun"
+    },
+    {
+      "id": "ro:bine",
+      "text": "bine",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "well, fine", "fr": "bien"},
+      "frequencyRank": 19,
+      "ipa": "ˈbine"
+    },
+    {
+      "id": "ro:a merge",
+      "text": "a merge",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to go, to walk", "fr": "aller, marcher"},
+      "otherMeanings": {"en": "to work (a machine)", "fr": "fonctionner"},
+      "frequencyRank": 20,
+      "ipa": "a ˈmerd͡ʒe"
+    },
+    {
+      "id": "ro:zi",
+      "text": "zi",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "day", "fr": "jour"},
+      "otherMeanings": {"en": "Bună ziua = Hello", "fr": "Bună ziua = Bonjour"},
+      "frequencyRank": 21,
+      "ipa": "zi"
+    },
+    {
+      "id": "ro:casă",
+      "text": "casă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "house", "fr": "maison"},
+      "otherMeanings": {"en": "home, household", "fr": "foyer, ménage"},
+      "frequencyRank": 22,
+      "ipa": "ˈkasə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:a veni",
+      "text": "a veni",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to come", "fr": "venir"},
+      "frequencyRank": 23,
+      "ipa": "a veˈni"
+    },
+    {
+      "id": "ro:a lua",
+      "text": "a lua",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to take", "fr": "prendre"},
+      "frequencyRank": 24,
+      "ipa": "a lu̯a"
+    },
+    {
+      "id": "ro:oră",
+      "text": "oră",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "hour; o'clock", "fr": "heure"},
+      "frequencyRank": 25,
+      "ipa": "ˈorə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:dimineață",
+      "text": "dimineață",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "morning", "fr": "matin"},
+      "frequencyRank": 26,
+      "ipa": "dimiˈne̯at͡sə",
+      "pronunciationNote": {
+        "en": "ț is the ts of “cats”.",
+        "fr": "ț se prononce ts, comme dans « tsar ».",
+        "ro": "ț: ca în „țară”."
+      }
+    },
+    {
+      "id": "ro:fiecare",
+      "text": "fiecare",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "every, each", "fr": "chaque"},
+      "frequencyRank": 27,
+      "ipa": "fi̯eˈkare"
+    },
+    {
+      "id": "ro:azi",
+      "text": "azi",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "today", "fr": "aujourd'hui"},
+      "frequencyRank": 28,
+      "ipa": "azʲ"
+    },
+    {
+      "id": "ro:mâine",
+      "text": "mâine",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "tomorrow", "fr": "demain"},
+      "frequencyRank": 29,
+      "ipa": "ˈmɨjne",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:a cumpăra",
+      "text": "a cumpăra",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to buy", "fr": "acheter"},
+      "frequencyRank": 30,
+      "ipa": "a kumpəˈra",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:a costa",
+      "text": "a costa",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to cost", "fr": "coûter"},
+      "frequencyRank": 31,
+      "ipa": "a kosˈta"
+    },
+    {
+      "id": "ro:cât",
+      "text": "cât",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "how much", "fr": "combien"},
+      "frequencyRank": 32,
+      "ipa": "kɨt",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:a mulțumi",
+      "text": "a mulțumi",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to thank", "fr": "remercier"},
+      "otherMeanings": {"en": "mulțumesc = thank you", "fr": "mulțumesc = merci"},
+      "frequencyRank": 33,
+      "ipa": "a mult͡suˈmi",
+      "pronunciationNote": {
+        "en": "ț is the ts of “cats”.",
+        "fr": "ț se prononce ts, comme dans « tsar ».",
+        "ro": "ț: ca în „țară”."
+      }
+    },
+    {
+      "id": "ro:a ruga",
+      "text": "a ruga",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to ask, to beg", "fr": "prier, demander"},
+      "otherMeanings": {"en": "vă rog = please", "fr": "vă rog = s'il vous plaît"},
+      "frequencyRank": 34,
+      "ipa": "a ruˈɡa"
+    },
+    {
+      "id": "ro:vă",
+      "text": "vă",
+      "partOfSpeech": "PRONOUN",
+      "meaning": {"en": "you (plural or polite)", "fr": "vous"},
+      "frequencyRank": 35,
+      "ipa": "və",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:aproape",
+      "text": "aproape",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "near, close", "fr": "près, proche"},
+      "frequencyRank": 36,
+      "ipa": "aˈpro̯ape"
+    },
+    {
+      "id": "ro:lângă",
+      "text": "lângă",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "next to", "fr": "à côté de"},
+      "frequencyRank": 37,
+      "ipa": "ˈlɨnɡə",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:stradă",
+      "text": "stradă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "street", "fr": "rue"},
+      "frequencyRank": 38,
+      "ipa": "ˈstradə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:capăt",
+      "text": "capăt",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "end", "fr": "bout"},
+      "frequencyRank": 39,
+      "ipa": "ˈkapət",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:ușă",
+      "text": "ușă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "door", "fr": "porte"},
+      "frequencyRank": 40,
+      "ipa": "ˈuʃə",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:câine",
+      "text": "câine",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "dog", "fr": "chien"},
+      "frequencyRank": 41,
+      "ipa": "ˈkɨjne",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:a dormi",
+      "text": "a dormi",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to sleep", "fr": "dormir"},
+      "frequencyRank": 42,
+      "ipa": "a dorˈmi"
+    },
+    {
+      "id": "ro:soare",
+      "text": "soare",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "sun", "fr": "soleil"},
+      "frequencyRank": 43,
+      "ipa": "ˈso̯are"
+    },
+    {
+      "id": "ro:piață",
+      "text": "piață",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "market", "fr": "marché"},
+      "otherMeanings": {"en": "square", "fr": "place"},
+      "frequencyRank": 44,
+      "ipa": "ˈpjat͡sə",
+      "pronunciationNote": {
+        "en": "ț is the ts of “cats”.",
+        "fr": "ț se prononce ts, comme dans « tsar ».",
+        "ro": "ț: ca în „țară”."
+      }
+    },
+    {
+      "id": "ro:sâmbătă",
+      "text": "sâmbătă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "Saturday", "fr": "samedi"},
+      "frequencyRank": 45,
+      "ipa": "ˈsɨmbətə",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:duminică",
+      "text": "duminică",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "Sunday", "fr": "dimanche"},
+      "frequencyRank": 46,
+      "ipa": "duˈminikə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:roșie",
+      "text": "roșie",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "tomato", "fr": "tomate"},
+      "frequencyRank": 47,
+      "ipa": "ˈroʃi.e",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:pâine",
+      "text": "pâine",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "bread", "fr": "pain"},
+      "frequencyRank": 48,
+      "ipa": "ˈpɨjne",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:brânză",
+      "text": "brânză",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "cheese", "fr": "fromage"},
+      "frequencyRank": 49,
+      "ipa": "ˈbrɨnzə",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:bilet",
+      "text": "bilet",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "ticket", "fr": "billet"},
+      "frequencyRank": 50,
+      "ipa": "biˈlet"
+    },
+    {
+      "id": "ro:tren",
+      "text": "tren",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "train", "fr": "train"},
+      "frequencyRank": 51,
+      "ipa": "tren"
+    },
+    {
+      "id": "ro:a pleca",
+      "text": "a pleca",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to leave", "fr": "partir"},
+      "frequencyRank": 52,
+      "ipa": "a pleˈka"
+    },
+    {
+      "id": "ro:zece",
+      "text": "zece",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"en": "ten", "fr": "dix"},
+      "frequencyRank": 53,
+      "ipa": "ˈzet͡ʃe"
+    },
+    {
+      "id": "ro:cincizeci",
+      "text": "cincizeci",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"en": "fifty", "fr": "cinquante"},
+      "frequencyRank": 54,
+      "ipa": "t͡ʃint͡ʃˈzet͡ʃʲ"
+    },
+    {
+      "id": "ro:leu",
+      "text": "leu",
+      "partOfSpeech": "NOUN",
+      "gender": "MASCULINE",
+      "meaning": {"en": "leu (Romanian currency)", "fr": "leu (monnaie roumaine)"},
+      "otherMeanings": {"en": "lion", "fr": "lion"},
+      "frequencyRank": 55,
+      "ipa": "lew"
+    },
+    {
+      "id": "ro:a bea",
+      "text": "a bea",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to drink", "fr": "boire"},
+      "frequencyRank": 56,
+      "ipa": "a be̯a"
+    },
+    {
+      "id": "ro:cafea",
+      "text": "cafea",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "coffee", "fr": "café"},
+      "frequencyRank": 57,
+      "ipa": "kaˈfe̯a"
+    },
+    {
+      "id": "ro:fierbinte",
+      "text": "fierbinte",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "hot", "fr": "chaud"},
+      "frequencyRank": 58,
+      "ipa": "fi̯erˈbinte"
+    },
+    {
+      "id": "ro:a citi",
+      "text": "a citi",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to read", "fr": "lire"},
+      "frequencyRank": 59,
+      "ipa": "a t͡ʃiˈti"
+    },
+    {
+      "id": "ro:carte",
+      "text": "carte",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "book", "fr": "livre"},
+      "frequencyRank": 60,
+      "ipa": "ˈkarte"
+    },
+    {
+      "id": "ro:fereastră",
+      "text": "fereastră",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "window", "fr": "fenêtre"},
+      "frequencyRank": 61,
+      "ipa": "feˈre̯astrə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:pisică",
+      "text": "pisică",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "cat", "fr": "chat"},
+      "frequencyRank": 62,
+      "ipa": "piˈsikə"
+    },
+    {
+      "id": "ro:masă",
+      "text": "masă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "table", "fr": "table"},
+      "otherMeanings": {"en": "meal", "fr": "repas"},
+      "frequencyRank": 63,
+      "ipa": "ˈmasə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:apoi",
+      "text": "apoi",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "then", "fr": "ensuite"},
+      "frequencyRank": 64,
+      "ipa": "aˈpoj"
+    },
+    {
+      "id": "ro:birou",
+      "text": "birou",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "office", "fr": "bureau"},
+      "otherMeanings": {"en": "desk", "fr": "bureau (meuble)"},
+      "frequencyRank": 65,
+      "ipa": "biˈrow"
+    },
+    {
+      "id": "ro:a vrea",
+      "text": "a vrea",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to want", "fr": "vouloir"},
+      "frequencyRank": 66,
+      "ipa": "a vre̯a"
+    },
+    {
+      "id": "ro:oraș",
+      "text": "oraș",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "town, city", "fr": "ville"},
+      "frequencyRank": 67,
+      "ipa": "oˈraʃ",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:ploaie",
+      "text": "ploaie",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "rain", "fr": "pluie"},
+      "frequencyRank": 68,
+      "ipa": "ˈplo̯aje"
+    },
+    {
+      "id": "ro:seară",
+      "text": "seară",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "evening", "fr": "soir"},
+      "frequencyRank": 69,
+      "ipa": "ˈse̯arə"
+    },
+    {
+      "id": "ro:temperatură",
+      "text": "temperatură",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "temperature", "fr": "température"},
+      "frequencyRank": 70,
+      "ipa": "temperaˈturə"
+    },
+    {
+      "id": "ro:a scădea",
+      "text": "a scădea",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to fall, to decrease", "fr": "baisser, diminuer"},
+      "frequencyRank": 71,
+      "ipa": "a skəˈde̯a"
+    },
+    {
+      "id": "ro:grad",
+      "text": "grad",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "degree", "fr": "degré"},
+      "frequencyRank": 72,
+      "ipa": "ɡrad"
+    },
+    {
+      "id": "ro:umbrelă",
+      "text": "umbrelă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "umbrella", "fr": "parapluie"},
+      "frequencyRank": 73,
+      "ipa": "umˈbrelə"
+    },
+    {
+      "id": "ro:a ieși",
+      "text": "a ieși",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to go out", "fr": "sortir"},
+      "frequencyRank": 74,
+      "ipa": "a jeˈʃi",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:cu",
+      "text": "cu",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "with", "fr": "avec"},
+      "frequencyRank": 75,
+      "ipa": "ku"
+    },
+    {
+      "id": "ro:parc",
+      "text": "parc",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "park", "fr": "parc"},
+      "frequencyRank": 76,
+      "ipa": "park"
+    },
+    {
+      "id": "ro:a alerga",
+      "text": "a alerga",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to run", "fr": "courir"},
+      "frequencyRank": 77,
+      "ipa": "a alerˈɡa"
+    },
+    {
+      "id": "ro:prin",
+      "text": "prin",
+      "partOfSpeech": "PREPOSITION",
+      "meaning": {"en": "through, in", "fr": "à travers, dans"},
+      "frequencyRank": 78,
+      "ipa": "prin"
+    },
+    {
+      "id": "ro:iarbă",
+      "text": "iarbă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "grass", "fr": "herbe"},
+      "frequencyRank": 79,
+      "ipa": "ˈjarbə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:bancă",
+      "text": "bancă",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "bench", "fr": "banc"},
+      "otherMeanings": {"en": "bank", "fr": "banque"},
+      "frequencyRank": 80,
+      "ipa": "ˈbankə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:acasă",
+      "text": "acasă",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "(at) home", "fr": "à la maison"},
+      "frequencyRank": 81,
+      "ipa": "aˈkasə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:lapte",
+      "text": "lapte",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "milk", "fr": "lait"},
+      "frequencyRank": 82,
+      "ipa": "ˈlapte"
+    },
+    {
+      "id": "ro:nu",
+      "text": "nu",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "no, not", "fr": "non, ne… pas"},
+      "frequencyRank": 83,
+      "ipa": "nu"
+    },
+    {
+      "id": "ro:corn",
+      "text": "corn",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "croissant", "fr": "croissant"},
+      "otherMeanings": {"en": "horn", "fr": "corne"},
+      "frequencyRank": 84,
+      "ipa": "korn"
+    },
+    {
+      "id": "ro:a pofti",
+      "text": "a pofti",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to invite", "fr": "inviter"},
+      "otherMeanings": {"en": "poftiți = here you are", "fr": "poftiți = voilà, je vous en prie"},
+      "frequencyRank": 85,
+      "ipa": "a pofˈti"
+    },
+    {
+      "id": "ro:cincisprezece",
+      "text": "cincisprezece",
+      "partOfSpeech": "NUMERAL",
+      "meaning": {"en": "fifteen", "fr": "quinze"},
+      "frequencyRank": 86,
+      "ipa": "ˈt͡ʃint͡ʃsprezet͡ʃe"
+    },
+    {
+      "id": "ro:trecut",
+      "text": "trecut",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "last, past", "fr": "dernier, passé"},
+      "frequencyRank": 87,
+      "ipa": "treˈkut"
+    },
+    {
+      "id": "ro:a avea",
+      "text": "a avea",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to have", "fr": "avoir"},
+      "otherMeanings": {"en": "auxiliary of the past: a mers = went", "fr": "auxiliaire du passé : a mers = est allé"},
+      "frequencyRank": 88,
+      "ipa": "a aˈve̯a"
+    },
+    {
+      "id": "ro:a vizita",
+      "text": "a vizita",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to visit", "fr": "visiter"},
+      "frequencyRank": 89,
+      "ipa": "a viziˈta"
+    },
+    {
+      "id": "ro:vechi",
+      "text": "vechi",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "old", "fr": "vieux"},
+      "frequencyRank": 90,
+      "ipa": "vekʲ"
+    },
+    {
+      "id": "ro:soră",
+      "text": "soră",
+      "partOfSpeech": "NOUN",
+      "gender": "FEMININE",
+      "meaning": {"en": "sister", "fr": "sœur"},
+      "frequencyRank": 91,
+      "ipa": "ˈsorə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:a mânca",
+      "text": "a mânca",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to eat", "fr": "manger"},
+      "frequencyRank": 92,
+      "ipa": "a mɨnˈka",
+      "pronunciationNote": {
+        "en": "â (and î) is a vowel between i and u, said with spread lips.",
+        "fr": "â (et î) est une voyelle entre i et ou, lèvres étirées.",
+        "ro": "â și î notează același sunet: o vocală centrală închisă."
+      }
+    },
+    {
+      "id": "ro:restaurant",
+      "text": "restaurant",
+      "partOfSpeech": "NOUN",
+      "gender": "NEUTER",
+      "meaning": {"en": "restaurant", "fr": "restaurant"},
+      "frequencyRank": 93,
+      "ipa": "restawˈrant"
+    },
+    {
+      "id": "ro:mic",
+      "text": "mic",
+      "partOfSpeech": "ADJECTIVE",
+      "meaning": {"en": "small", "fr": "petit"},
+      "frequencyRank": 94,
+      "ipa": "mik"
+    },
+    {
+      "id": "ro:a ploua",
+      "text": "a ploua",
+      "partOfSpeech": "VERB",
+      "meaning": {"en": "to rain", "fr": "pleuvoir"},
+      "frequencyRank": 95,
+      "ipa": "a ploˈwa"
+    },
+    {
+      "id": "ro:așa",
+      "text": "așa",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "so, like this", "fr": "ainsi, comme ça"},
+      "frequencyRank": 96,
+      "ipa": "aˈʃa",
+      "pronunciationNote": {
+        "en": "ș is the sh of “shoe”.",
+        "fr": "ș se prononce comme le ch de « chat ».",
+        "ro": "ș: ca în „școală”."
+      }
+    },
+    {
+      "id": "ro:că",
+      "text": "că",
+      "partOfSpeech": "CONJUNCTION",
+      "meaning": {"en": "that (așa că = so)", "fr": "que (așa că = donc)"},
+      "frequencyRank": 97,
+      "ipa": "kə",
+      "pronunciationNote": {
+        "en": "ă is a short, relaxed vowel, like the a in “about”.",
+        "fr": "ă est une voyelle brève et neutre, comme le e de « le ».",
+        "ro": "ă: vocală centrală, scurtă și relaxată."
+      }
+    },
+    {
+      "id": "ro:devreme",
+      "text": "devreme",
+      "partOfSpeech": "ADVERB",
+      "meaning": {"en": "early", "fr": "tôt"},
+      "frequencyRank": 98,
+      "ipa": "deˈvreme"
+    }
+  ],
+  "texts": [
+    {
+      "id": "ro-market",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "Sâmbăta la piață",
+      "minutes": 3,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Ana"},
+            {"text": " "},
+            {
+              "text": "merge",
+              "lemma": "ro:a merge",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "piață", "lemma": "ro:piață"},
+            {"text": " "},
+            {"text": "în", "lemma": "ro:în"},
+            {"text": " "},
+            {"text": "fiecare", "lemma": "ro:fiecare"},
+            {"text": " "},
+            {"text": "sâmbătă", "lemma": "ro:sâmbătă"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Ana goes to the market every Saturday.", "fr": "Ana va au marché chaque samedi."}
+        },
+        {
+          "tokens": [
+            {
+              "text": "Piața",
+              "lemma": "ro:piață",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "este",
+              "lemma": "ro:a fi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "aproape", "lemma": "ro:aproape"},
+            {"text": ", "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {
+              "text": "capătul",
+              "lemma": "ro:capăt",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "străzii",
+              "lemma": "ro:stradă",
+              "formNote": {
+                "en": "genitive-dative, definite",
+                "fr": "génitif-datif, défini",
+                "ro": "genitiv-dativ, articulat"
+              }
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "The market is close, at the end of the street.",
+            "fr": "Le marché est proche, au bout de la rue."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Lângă", "lemma": "ro:lângă"},
+            {"text": " "},
+            {
+              "text": "ușa",
+              "lemma": "ro:ușă",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "casei",
+              "lemma": "ro:casă",
+              "formNote": {
+                "en": "genitive-dative, definite",
+                "fr": "génitif-datif, défini",
+                "ro": "genitiv-dativ, articulat"
+              }
+            },
+            {"text": ", "},
+            {"text": "un", "lemma": "ro:un"},
+            {"text": " "},
+            {"text": "câine", "lemma": "ro:câine"},
+            {"text": " "},
+            {
+              "text": "doarme",
+              "lemma": "ro:a dormi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "soare", "lemma": "ro:soare"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "Next to the door of the house, a dog sleeps in the sun.",
+            "fr": "À côté de la porte de la maison, un chien dort au soleil."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Ea", "lemma": "ro:ea"},
+            {"text": " "},
+            {
+              "text": "cumpără",
+              "lemma": "ro:a cumpăra",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "roșii",
+              "lemma": "ro:roșie",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": ", "},
+            {"text": "pâine", "lemma": "ro:pâine"},
+            {"text": " "},
+            {"text": "și", "lemma": "ro:și"},
+            {"text": " "},
+            {"text": "brânză", "lemma": "ro:brânză"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "She buys tomatoes, bread and cheese.",
+            "fr": "Elle achète des tomates, du pain et du fromage."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "„"},
+            {
+              "text": "Bună",
+              "lemma": "ro:bun",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {
+              "text": "dimineața",
+              "lemma": "ro:dimineață",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": ", "},
+            {"text": "Ana"},
+            {"text": "! "},
+            {"text": "Ce", "lemma": "ro:ce"},
+            {"text": " "},
+            {"text": "mai", "lemma": "ro:mai"},
+            {"text": " "},
+            {
+              "text": "faci",
+              "lemma": "ro:a face",
+              "formNote": {"en": "present, you", "fr": "présent, tu", "ro": "prezent, tu"}
+            },
+            {"text": "?”"}
+          ],
+          "translation": {"en": "“Good morning, Ana! How are you?”", "fr": "« Bonjour, Ana ! Comment vas-tu ? »"}
+        },
+        {
+          "tokens": [
+            {"text": "„"},
+            {"text": "Bine", "lemma": "ro:bine"},
+            {"text": ", "},
+            {
+              "text": "mulțumesc",
+              "lemma": "ro:a mulțumi",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": ". "},
+            {"text": "Cât", "lemma": "ro:cât"},
+            {"text": " "},
+            {
+              "text": "costă",
+              "lemma": "ro:a costa",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "roșiile",
+              "lemma": "ro:roșie",
+              "formNote": {"en": "plural, definite", "fr": "pluriel, défini", "ro": "plural, articulat"}
+            },
+            {"text": " "},
+            {"text": "azi", "lemma": "ro:azi"},
+            {"text": "?”"}
+          ],
+          "translation": {
+            "en": "“Fine, thank you. How much are the tomatoes today?”",
+            "fr": "« Bien, merci. Combien coûtent les tomates aujourd'hui ? »"
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-station",
+      "level": "A1",
+      "kind": "DIALOGUE",
+      "title": "La gară",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Bună",
+              "lemma": "ro:bun",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {
+              "text": "ziua",
+              "lemma": "ro:zi",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "! "},
+            {"text": "Un", "lemma": "ro:un"},
+            {"text": " "},
+            {"text": "bilet", "lemma": "ro:bilet"},
+            {"text": " "},
+            {"text": "pentru", "lemma": "ro:pentru"},
+            {"text": " "},
+            {"text": "Brașov"},
+            {"text": ", "},
+            {"text": "vă", "lemma": "ro:vă"},
+            {"text": " "},
+            {
+              "text": "rog",
+              "lemma": "ro:a ruga",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "— Hello! A ticket to Brașov, please.",
+            "fr": "— Bonjour ! Un billet pour Brașov, s'il vous plaît."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Pentru", "lemma": "ro:pentru"},
+            {"text": " "},
+            {"text": "azi", "lemma": "ro:azi"},
+            {"text": " "},
+            {"text": "sau", "lemma": "ro:sau"},
+            {"text": " "},
+            {"text": "pentru", "lemma": "ro:pentru"},
+            {"text": " "},
+            {"text": "mâine", "lemma": "ro:mâine"},
+            {"text": "?"}
+          ],
+          "translation": {"en": "— For today or for tomorrow?", "fr": "— Pour aujourd'hui ou pour demain ?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Pentru", "lemma": "ro:pentru"},
+            {"text": " "},
+            {"text": "azi", "lemma": "ro:azi"},
+            {"text": ". "},
+            {"text": "La", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "ce", "lemma": "ro:ce"},
+            {"text": " "},
+            {"text": "oră", "lemma": "ro:oră"},
+            {"text": " "},
+            {
+              "text": "pleacă",
+              "lemma": "ro:a pleca",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "trenul",
+              "lemma": "ro:tren",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "?"}
+          ],
+          "translation": {
+            "en": "— For today. What time does the train leave?",
+            "fr": "— Pour aujourd'hui. À quelle heure part le train ?"
+          }
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Trenul",
+              "lemma": "ro:tren",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "pleacă",
+              "lemma": "ro:a pleca",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {
+              "text": "ora",
+              "lemma": "ro:oră",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {"text": "zece", "lemma": "ro:zece"},
+            {"text": "."}
+          ],
+          "translation": {"en": "— The train leaves at ten o'clock.", "fr": "— Le train part à dix heures."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Mulțumesc",
+              "lemma": "ro:a mulțumi",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": "! "},
+            {"text": "Cât", "lemma": "ro:cât"},
+            {"text": " "},
+            {
+              "text": "costă",
+              "lemma": "ro:a costa",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "biletul",
+              "lemma": "ro:bilet",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "?"}
+          ],
+          "translation": {"en": "— Thank you! How much is the ticket?", "fr": "— Merci ! Combien coûte le billet ?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Cincizeci", "lemma": "ro:cincizeci"},
+            {"text": " "},
+            {"text": "de", "lemma": "ro:de"},
+            {"text": " "},
+            {"text": "lei", "lemma": "ro:leu", "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}},
+            {"text": "."}
+          ],
+          "translation": {"en": "— Fifty lei.", "fr": "— Cinquante lei."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-coffee",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "Cafeaua de dimineață",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Mihai"},
+            {"text": " "},
+            {
+              "text": "bea",
+              "lemma": "ro:a bea",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "cafea", "lemma": "ro:cafea"},
+            {"text": " "},
+            {"text": "în", "lemma": "ro:în"},
+            {"text": " "},
+            {"text": "fiecare", "lemma": "ro:fiecare"},
+            {"text": " "},
+            {"text": "dimineață", "lemma": "ro:dimineață"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Mihai drinks coffee every morning.", "fr": "Mihai boit du café chaque matin."}
+        },
+        {
+          "tokens": [
+            {
+              "text": "Cafeaua",
+              "lemma": "ro:cafea",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "este",
+              "lemma": "ro:a fi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "fierbinte", "lemma": "ro:fierbinte"},
+            {"text": " "},
+            {"text": "și", "lemma": "ro:și"},
+            {"text": " "},
+            {
+              "text": "bună",
+              "lemma": "ro:bun",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "The coffee is hot and good.", "fr": "Le café est chaud et bon."}
+        },
+        {
+          "tokens": [
+            {"text": "El", "lemma": "ro:el"},
+            {"text": " "},
+            {
+              "text": "citește",
+              "lemma": "ro:a citi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "o", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "carte", "lemma": "ro:carte"},
+            {"text": " "},
+            {"text": "lângă", "lemma": "ro:lângă"},
+            {"text": " "},
+            {"text": "fereastră", "lemma": "ro:fereastră"},
+            {"text": "."}
+          ],
+          "translation": {"en": "He reads a book next to the window.", "fr": "Il lit un livre près de la fenêtre."}
+        },
+        {
+          "tokens": [
+            {
+              "text": "Pisica",
+              "lemma": "ro:pisică",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "lui",
+              "lemma": "ro:el",
+              "formNote": {"en": "genitive: his", "fr": "génitif : son, sa", "ro": "genitiv: al lui"}
+            },
+            {"text": " "},
+            {
+              "text": "doarme",
+              "lemma": "ro:a dormi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "pe", "lemma": "ro:pe"},
+            {"text": " "},
+            {"text": "masă", "lemma": "ro:masă"},
+            {"text": "."}
+          ],
+          "translation": {"en": "His cat sleeps on the table.", "fr": "Son chat dort sur la table."}
+        },
+        {
+          "tokens": [
+            {"text": "Apoi", "lemma": "ro:apoi"},
+            {"text": " "},
+            {"text": "Mihai"},
+            {"text": " "},
+            {
+              "text": "merge",
+              "lemma": "ro:a merge",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "birou", "lemma": "ro:birou"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Then Mihai goes to the office.", "fr": "Ensuite, Mihai va au bureau."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-weather",
+      "level": "A2",
+      "kind": "NEWS",
+      "title": "Vremea în weekend",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "Sâmbătă", "lemma": "ro:sâmbătă"},
+            {"text": " "},
+            {
+              "text": "va",
+              "lemma": "ro:a vrea",
+              "formNote": {
+                "en": "future auxiliary: va fi = will be",
+                "fr": "auxiliaire du futur : va fi = sera",
+                "ro": "auxiliar de viitor"
+              }
+            },
+            {"text": " "},
+            {
+              "text": "fi",
+              "lemma": "ro:a fi",
+              "formNote": {"en": "infinitive", "fr": "infinitif", "ro": "infinitiv"}
+            },
+            {"text": " "},
+            {"text": "soare", "lemma": "ro:soare"},
+            {"text": " "},
+            {"text": "în", "lemma": "ro:în"},
+            {"text": " "},
+            {"text": "tot", "lemma": "ro:tot"},
+            {"text": " "},
+            {
+              "text": "orașul",
+              "lemma": "ro:oraș",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "On Saturday it will be sunny in the whole city.",
+            "fr": "Samedi, il y aura du soleil dans toute la ville."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Duminică", "lemma": "ro:duminică"},
+            {"text": " "},
+            {
+              "text": "seara",
+              "lemma": "ro:seară",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "vine",
+              "lemma": "ro:a veni",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "ploaia",
+              "lemma": "ro:ploaie",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "On Sunday evening the rain comes.", "fr": "Dimanche soir, la pluie arrive."}
+        },
+        {
+          "tokens": [
+            {
+              "text": "Temperaturile",
+              "lemma": "ro:temperatură",
+              "formNote": {"en": "plural, definite", "fr": "pluriel, défini", "ro": "plural, articulat"}
+            },
+            {"text": " "},
+            {
+              "text": "scad",
+              "lemma": "ro:a scădea",
+              "formNote": {"en": "present, they", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "zece", "lemma": "ro:zece"},
+            {"text": " "},
+            {
+              "text": "grade",
+              "lemma": "ro:grad",
+              "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "Temperatures fall to ten degrees.", "fr": "Les températures baissent à dix degrés."}
+        },
+        {
+          "tokens": [
+            {
+              "text": "Luați",
+              "lemma": "ro:a lua",
+              "formNote": {"en": "imperative, you (plural or polite)", "fr": "impératif, vous", "ro": "imperativ, voi"}
+            },
+            {"text": " "},
+            {"text": "o", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "umbrelă", "lemma": "ro:umbrelă"},
+            {"text": " "},
+            {"text": "dacă", "lemma": "ro:dacă"},
+            {"text": " "},
+            {
+              "text": "ieșiți",
+              "lemma": "ro:a ieși",
+              "formNote": {"en": "present, you (plural or polite)", "fr": "présent, vous", "ro": "prezent, voi"}
+            },
+            {"text": " "},
+            {"text": "din", "lemma": "ro:din"},
+            {"text": " "},
+            {"text": "casă", "lemma": "ro:casă"},
+            {"text": "!"}
+          ],
+          "translation": {
+            "en": "Take an umbrella if you leave the house!",
+            "fr": "Prenez un parapluie si vous sortez de la maison !"
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-park",
+      "level": "A1",
+      "kind": "STORY",
+      "title": "În parc",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {
+              "text": "Seara",
+              "lemma": "ro:seară",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": ", "},
+            {"text": "Ana"},
+            {"text": " "},
+            {
+              "text": "merge",
+              "lemma": "ro:a merge",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "cu", "lemma": "ro:cu"},
+            {"text": " "},
+            {
+              "text": "câinele",
+              "lemma": "ro:câine",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {"text": "în", "lemma": "ro:în"},
+            {"text": " "},
+            {"text": "parc", "lemma": "ro:parc"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "In the evening, Ana goes to the park with the dog.",
+            "fr": "Le soir, Ana va au parc avec le chien."
+          }
+        },
+        {
+          "tokens": [
+            {
+              "text": "Câinele",
+              "lemma": "ro:câine",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "aleargă",
+              "lemma": "ro:a alerga",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "prin", "lemma": "ro:prin"},
+            {"text": " "},
+            {"text": "iarbă", "lemma": "ro:iarbă"},
+            {"text": "."}
+          ],
+          "translation": {"en": "The dog runs in the grass.", "fr": "Le chien court dans l'herbe."}
+        },
+        {
+          "tokens": [
+            {"text": "Ana"},
+            {"text": " "},
+            {
+              "text": "citește",
+              "lemma": "ro:a citi",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "o", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "carte", "lemma": "ro:carte"},
+            {"text": " "},
+            {"text": "pe", "lemma": "ro:pe"},
+            {"text": " "},
+            {"text": "o", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "bancă", "lemma": "ro:bancă"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Ana reads a book on a bench.", "fr": "Ana lit un livre sur un banc."}
+        },
+        {
+          "tokens": [
+            {"text": "Apoi", "lemma": "ro:apoi"},
+            {"text": " "},
+            {
+              "text": "merg",
+              "lemma": "ro:a merge",
+              "formNote": {"en": "present, they", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {"text": "acasă", "lemma": "ro:acasă"},
+            {"text": "."}
+          ],
+          "translation": {"en": "Then they go home.", "fr": "Ensuite, ils rentrent à la maison."}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-cafe",
+      "level": "A1",
+      "kind": "DIALOGUE",
+      "title": "La cafenea",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Bună",
+              "lemma": "ro:bun",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": " "},
+            {
+              "text": "ziua",
+              "lemma": "ro:zi",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "! "},
+            {"text": "O", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "cafea", "lemma": "ro:cafea"},
+            {"text": ", "},
+            {"text": "vă", "lemma": "ro:vă"},
+            {"text": " "},
+            {
+              "text": "rog",
+              "lemma": "ro:a ruga",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": "."}
+          ],
+          "translation": {"en": "— Hello! A coffee, please.", "fr": "— Bonjour ! Un café, s'il vous plaît."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Cu", "lemma": "ro:cu"},
+            {"text": " "},
+            {"text": "lapte", "lemma": "ro:lapte"},
+            {"text": "?"}
+          ],
+          "translation": {"en": "— With milk?", "fr": "— Avec du lait ?"}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {"text": "Nu", "lemma": "ro:nu"},
+            {"text": ", "},
+            {
+              "text": "mulțumesc",
+              "lemma": "ro:a mulțumi",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": ". "},
+            {"text": "Și", "lemma": "ro:și"},
+            {"text": " "},
+            {"text": "un", "lemma": "ro:un"},
+            {"text": " "},
+            {"text": "corn", "lemma": "ro:corn"},
+            {"text": ", "},
+            {"text": "vă", "lemma": "ro:vă"},
+            {"text": " "},
+            {
+              "text": "rog",
+              "lemma": "ro:a ruga",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "— No, thank you. And a croissant, please.",
+            "fr": "— Non, merci. Et un croissant, s'il vous plaît."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Poftiți",
+              "lemma": "ro:a pofti",
+              "formNote": {"en": "present, you (plural or polite)", "fr": "présent, vous", "ro": "prezent, voi"}
+            },
+            {"text": ". "},
+            {
+              "text": "Face",
+              "lemma": "ro:a face",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {"text": "cincisprezece", "lemma": "ro:cincisprezece"},
+            {"text": " "},
+            {"text": "lei", "lemma": "ro:leu", "formNote": {"en": "plural", "fr": "pluriel", "ro": "plural"}},
+            {"text": "."}
+          ],
+          "translation": {"en": "— Here you are. That's fifteen lei.", "fr": "— Voilà. Ça fait quinze lei."}
+        },
+        {
+          "tokens": [
+            {"text": "— "},
+            {
+              "text": "Mulțumesc",
+              "lemma": "ro:a mulțumi",
+              "formNote": {"en": "present, I", "fr": "présent, je", "ro": "prezent, eu"}
+            },
+            {"text": ". "},
+            {"text": "O", "lemma": "ro:un", "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}},
+            {"text": " "},
+            {"text": "zi", "lemma": "ro:zi"},
+            {"text": " "},
+            {
+              "text": "bună",
+              "lemma": "ro:bun",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": "!"}
+          ],
+          "translation": {"en": "— Thank you. Have a nice day!", "fr": "— Merci. Bonne journée !"}
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-weekend",
+      "level": "A2",
+      "kind": "STORY",
+      "title": "Weekendul trecut",
+      "minutes": 2,
+      "sentences": [
+        {
+          "tokens": [
+            {
+              "text": "Sâmbăta",
+              "lemma": "ro:sâmbătă",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "trecută",
+              "lemma": "ro:trecut",
+              "formNote": {"en": "feminine", "fr": "féminin", "ro": "feminin"}
+            },
+            {"text": ", "},
+            {"text": "Mihai"},
+            {"text": " "},
+            {
+              "text": "a",
+              "lemma": "ro:a avea",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "mers",
+              "lemma": "ro:a merge",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "la", "lemma": "ro:la"},
+            {"text": " "},
+            {"text": "Brașov"},
+            {"text": " "},
+            {"text": "cu", "lemma": "ro:cu"},
+            {"text": " "},
+            {
+              "text": "trenul",
+              "lemma": "ro:tren",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "Last Saturday, Mihai went to Brașov by train.",
+            "fr": "Samedi dernier, Mihai est allé à Brașov en train."
+          }
+        },
+        {
+          "tokens": [
+            {
+              "text": "A",
+              "lemma": "ro:a avea",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "vizitat",
+              "lemma": "ro:a vizita",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {
+              "text": "orașul",
+              "lemma": "ro:oraș",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {"text": "vechi", "lemma": "ro:vechi"},
+            {"text": " "},
+            {"text": "cu", "lemma": "ro:cu"},
+            {"text": " "},
+            {
+              "text": "sora",
+              "lemma": "ro:soră",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": " "},
+            {
+              "text": "lui",
+              "lemma": "ro:el",
+              "formNote": {"en": "genitive: his", "fr": "génitif : son, sa", "ro": "genitiv: al lui"}
+            },
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "He visited the old town with his sister.",
+            "fr": "Il a visité la vieille ville avec sa sœur."
+          }
+        },
+        {
+          "tokens": [
+            {
+              "text": "Seara",
+              "lemma": "ro:seară",
+              "formNote": {"en": "definite article", "fr": "article défini", "ro": "articulat hotărât"}
+            },
+            {"text": ", "},
+            {
+              "text": "au",
+              "lemma": "ro:a avea",
+              "formNote": {"en": "present, they", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {
+              "text": "mâncat",
+              "lemma": "ro:a mânca",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {
+              "text": "într",
+              "lemma": "ro:în",
+              "formNote": {
+                "en": "before a vowel or un/o: într-un, într-o",
+                "fr": "devant une voyelle ou un/o : într-un, într-o",
+                "ro": "înaintea unei vocale sau a lui un/o: într-un, într-o"
+              }
+            },
+            {"text": "-"},
+            {"text": "un", "lemma": "ro:un"},
+            {"text": " "},
+            {"text": "restaurant", "lemma": "ro:restaurant"},
+            {"text": " "},
+            {"text": "mic", "lemma": "ro:mic"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "In the evening, they ate in a small restaurant.",
+            "fr": "Le soir, ils ont mangé dans un petit restaurant."
+          }
+        },
+        {
+          "tokens": [
+            {"text": "Duminică", "lemma": "ro:duminică"},
+            {"text": " "},
+            {
+              "text": "a",
+              "lemma": "ro:a avea",
+              "formNote": {"en": "present, he/she", "fr": "présent, il/elle", "ro": "prezent, el/ea"}
+            },
+            {"text": " "},
+            {
+              "text": "plouat",
+              "lemma": "ro:a ploua",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": ", "},
+            {"text": "așa", "lemma": "ro:așa"},
+            {"text": " "},
+            {"text": "că", "lemma": "ro:că"},
+            {"text": " "},
+            {
+              "text": "au",
+              "lemma": "ro:a avea",
+              "formNote": {"en": "present, they", "fr": "présent, ils/elles", "ro": "prezent, ei/ele"}
+            },
+            {"text": " "},
+            {
+              "text": "plecat",
+              "lemma": "ro:a pleca",
+              "formNote": {"en": "past participle", "fr": "participe passé", "ro": "participiu"}
+            },
+            {"text": " "},
+            {"text": "acasă", "lemma": "ro:acasă"},
+            {"text": " "},
+            {"text": "devreme", "lemma": "ro:devreme"},
+            {"text": "."}
+          ],
+          "translation": {
+            "en": "On Sunday it rained, so they went home early.",
+            "fr": "Dimanche, il a plu, alors ils sont rentrés tôt."
+          }
+        }
+      ],
+      "review": "ai"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ro-01-alphabet",
+      "order": 1,
+      "title": {"en": "Alphabet and diacritics", "fr": "Alphabet et diacritiques", "ro": "Alfabetul și diacriticele"},
+      "summary": {
+        "en": "The five letters specific to Romanian and the reading rules.",
+        "fr": "Les cinq lettres propres au roumain et les règles de lecture.",
+        "ro": "Cele cinci litere specifice limbii române și regulile de citire."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The five letters with diacritics",
+            "fr": "Les cinq lettres à diacritiques",
+            "ro": "Cele cinci litere cu diacritice"
+          },
+          "body": {
+            "en": "ă sounds like the a in \"about\" (schwa).\nâ and î spell the same sound, a closed central vowel with no English equivalent: î at the start and end of a word (în, a coborî), â inside (român, mâine).\nș sounds like English \"sh\": școală.\nț sounds like \"ts\": țară.\nCareful: ș and ț are written with a comma below, never with a cedilla.",
+            "fr": "ă se prononce comme le « e » de « le » (schwa).\nâ et î notent le même son, une voyelle centrale fermée sans équivalent en français : î en début et en fin de mot (în, a coborî), â à l'intérieur (român, mâine).\nș se prononce comme le « ch » français : școală.\nț se prononce « ts » : țară.\nAttention : ș et ț s'écrivent avec une virgule dessous, jamais avec une cédille.",
+            "ro": "ă notează vocala neutră /ə/.\nâ și î notează același sunet, /ɨ/: î la începutul și la sfârșitul cuvântului (în, a coborî), â în interior (român, mâine).\nș notează sunetul /ʃ/: școală.\nț notează sunetul /t͡s/: țară.\nAtenție: ș și ț se scriu cu virgulă dedesubt, niciodată cu sedilă."
+          },
+          "examples": [
+            {"text": "casă", "translation": {"en": "house", "fr": "maison"}},
+            {"text": "în", "translation": {"en": "in", "fr": "dans"}},
+            {"text": "mâine", "translation": {"en": "tomorrow", "fr": "demain"}},
+            {"text": "român", "translation": {"en": "Romanian", "fr": "roumain"}},
+            {"text": "școală", "translation": {"en": "school", "fr": "école"}},
+            {"text": "țară", "translation": {"en": "country", "fr": "pays"}}
+          ]
+        },
+        {
+          "heading": {"en": "c and g before e and i", "fr": "c et g devant e et i", "ro": "c și g înainte de e și i"},
+          "body": {
+            "en": "ce, ci are read with the ch of \"church\": cer, cinci.\nche, chi are read with a hard k: ochi, unchi.\nge, gi are read with the j of \"jam\": ger, gimnaziu.\nghe, ghi are read with the hard g of \"get\": ghete, ghid.\nAs in Italian, the h makes the sound hard.",
+            "fr": "ce, ci se lisent « tché », « tchi » : cer, cinci.\nche, chi se lisent « ké », « ki » : ochi, unchi.\nge, gi se lisent « djé », « dji » : ger, gimnaziu.\nghe, ghi se lisent « gué », « gui » : ghete, ghid.\nComme en italien, le h rend le son dur.",
+            "ro": "ce, ci se citesc /t͡ʃe/, /t͡ʃi/: cer, cinci.\nche, chi se citesc /ke/, /ki/: ochi, unchi.\nge, gi se citesc /d͡ʒe/, /d͡ʒi/: ger, gimnaziu.\nghe, ghi se citesc /ɡe/, /ɡi/: ghete, ghid.\nCa în italiană, h face sunetul dur."
+          },
+          "examples": [
+            {"text": "cer", "translation": {"en": "sky", "fr": "ciel"}},
+            {"text": "cinci", "translation": {"en": "five", "fr": "cinq"}},
+            {"text": "ochi", "translation": {"en": "eyes", "fr": "yeux"}},
+            {"text": "unchi", "translation": {"en": "uncle", "fr": "oncle"}},
+            {"text": "ger", "translation": {"en": "frost", "fr": "gel"}},
+            {"text": "ghid", "translation": {"en": "guide", "fr": "guide"}}
+          ]
+        },
+        {
+          "heading": {"en": "The diphthongs ea and oa", "fr": "Les diphtongues ea et oa", "ro": "Diftongii ea și oa"},
+          "body": {
+            "en": "ea is pronounced as one syllable, a gliding \"ya\": seară, dimineață.\noa is pronounced \"wa\" in one syllable, with a very short o: noapte, școală.",
+            "fr": "ea se prononce en une seule syllabe, « éa » glissé : seară, dimineață.\noa se prononce « oa » en une syllabe, le o très bref : noapte, școală.",
+            "ro": "ea se pronunță într-o singură silabă: seară, dimineață.\noa se pronunță tot într-o singură silabă, cu un o foarte scurt: noapte, școală."
+          },
+          "examples": [
+            {"text": "seară", "translation": {"en": "evening", "fr": "soir"}},
+            {"text": "dimineață", "translation": {"en": "morning", "fr": "matin"}},
+            {"text": "noapte", "translation": {"en": "night", "fr": "nuit"}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and French",
+            "fr": "Comparaison avec le français et l'anglais",
+            "ro": "Comparație cu engleza și franceza"
+          },
+          "body": {
+            "en": "Romanian spelling is almost phonetic: every letter is pronounced, including final ones (final -i is sometimes very short: pomi). Unlike in English or French, a letter almost always keeps the same sound. In a few very common words, initial e is pronounced \"ye\": eu (\"yeoo\"), este (\"yeste\").",
+            "fr": "L'orthographe roumaine est presque phonétique : chaque lettre se prononce, y compris les finales (le -i final est parfois très bref : pomi), contrairement au français et à l'anglais. Dans quelques mots très courants, e initial se prononce « ié » : eu (« iéou »), este (« iéste »).",
+            "ro": "Ortografia românească este aproape fonetică: fiecare literă se pronunță, inclusiv la final (-i final este uneori foarte scurt: pomi). În engleză și în franceză, multe litere sunt mute sau se citesc diferit după context. În câteva cuvinte foarte frecvente, e inițial se pronunță „ie”: eu, este."
+          },
+          "examples": [
+            {"text": "eu", "translation": {"en": "I", "fr": "je"}},
+            {"text": "este", "translation": {"en": "is", "fr": "est"}},
+            {"text": "pomi", "translation": {"en": "trees", "fr": "arbres"}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-02-genres",
+      "order": 2,
+      "title": {"en": "Noun gender", "fr": "Le genre des noms", "ro": "Genul substantivelor"},
+      "summary": {
+        "en": "Masculine, feminine… and neuter.",
+        "fr": "Masculin, féminin… et neutre.",
+        "ro": "Masculin, feminin… și neutru."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Three genders", "fr": "Trois genres", "ro": "Trei genuri"},
+          "body": {
+            "en": "Romanian has three genders: masculine, feminine and neuter.\nMasculine: un băiat (a boy), un pom (a tree).\nFeminine, often in -ă or -e: o fată (a girl), o casă (a house), o carte (a book).",
+            "fr": "Le roumain a trois genres : masculin, féminin et neutre.\nMasculin : un băiat (un garçon), un pom (un arbre).\nFéminin, souvent en -ă ou -e : o fată (une fille), o casă (une maison), o carte (un livre).",
+            "ro": "Româna are trei genuri: masculin, feminin și neutru.\nMasculin: un băiat, un pom.\nFeminin, adesea în -ă sau -e: o fată, o casă, o carte."
+          },
+          "examples": [
+            {"text": "un băiat", "translation": {"en": "a boy", "fr": "un garçon"}},
+            {"text": "un pom", "translation": {"en": "a tree", "fr": "un arbre"}},
+            {"text": "o fată", "translation": {"en": "a girl", "fr": "une fille"}},
+            {"text": "o casă", "translation": {"en": "a house", "fr": "une maison"}},
+            {"text": "o carte", "translation": {"en": "a book", "fr": "un livre"}}
+          ]
+        },
+        {
+          "heading": {"en": "The neuter", "fr": "Le neutre", "ro": "Neutrul"},
+          "body": {
+            "en": "A neuter noun behaves like a masculine one in the singular and like a feminine one in the plural.\nun tren → două trenuri; un scaun → două scaune.\nTip: say \"un …\" then \"două …\". If both sound right, the noun is neuter. A masculine noun takes \"un\" / \"doi\" (doi băieți), a feminine one \"o\" / \"două\" (două fete).",
+            "fr": "Un nom neutre se comporte comme un masculin au singulier et comme un féminin au pluriel.\nun tren → două trenuri ; un scaun → două scaune.\nAstuce : dis « un … » puis « două … ». Si les deux sonnent juste, le nom est neutre. Un masculin donne « un » / « doi » (doi băieți), un féminin « o » / « două » (două fete).",
+            "ro": "Un substantiv neutru se comportă ca un masculin la singular și ca un feminin la plural.\nun tren → două trenuri; un scaun → două scaune.\nTruc: spune „un …”, apoi „două …”. Dacă ambele sună corect, substantivul este neutru. Masculinul cere „un” / „doi” (doi băieți), femininul „o” / „două” (două fete)."
+          },
+          "examples": [
+            {
+              "text": "un tren, două trenuri",
+              "translation": {"en": "a train, two trains", "fr": "un train, deux trains"}
+            },
+            {
+              "text": "un scaun, două scaune",
+              "translation": {"en": "a chair, two chairs", "fr": "une chaise, deux chaises"}
+            },
+            {"text": "doi băieți", "translation": {"en": "two boys", "fr": "deux garçons"}},
+            {"text": "două fete", "translation": {"en": "two girls", "fr": "deux filles"}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and French",
+            "fr": "Comparaison avec le français et l'anglais",
+            "ro": "Comparație cu engleza și franceza"
+          },
+          "body": {
+            "en": "English nouns have no grammatical gender and French has two; Romanian has three, and gender often differs from French: \"le livre\" is feminine in Romanian (o carte), \"le train\" is neuter (un tren). Always learn a noun with its article: un / o.",
+            "fr": "Le français n'a que deux genres, l'anglais aucun pour les noms, et le genre change souvent d'une langue à l'autre : « le livre » devient o carte (féminin), « le train » un tren (neutre). Apprends toujours le nom avec son article : un / o.",
+            "ro": "Engleza nu are gen gramatical pentru substantive, iar franceza are doar două genuri. Genul diferă adesea: o carte este feminin, dar „le livre” este masculin în franceză; neutrul nu există în franceză, așa că un tren devine masculin: „le train”."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-03-pluriel",
+      "order": 3,
+      "title": {"en": "Plural of nouns", "fr": "Le pluriel des noms", "ro": "Pluralul substantivelor"},
+      "summary": {
+        "en": "Plural endings and sound changes.",
+        "fr": "Terminaisons du pluriel et alternances.",
+        "ro": "Terminații de plural și alternanțe."
+      },
+      "sections": [
+        {
+          "heading": {"en": "Masculine: -i", "fr": "Masculin : -i", "ro": "Masculin: -i"},
+          "body": {
+            "en": "pom → pomi, câine → câini.\nThe -i often changes the consonant before it: student → studenți (t → ț), băiat → băieți.",
+            "fr": "pom → pomi, câine → câini.\nLe -i entraîne souvent un changement de consonne : student → studenți (t → ț), băiat → băieți.",
+            "ro": "pom → pomi, câine → câini.\n-i provoacă adesea o schimbare de consoană: student → studenți (t → ț), băiat → băieți."
+          },
+          "examples": [
+            {
+              "text": "un pom, doi pomi",
+              "translation": {"en": "a tree, two trees", "fr": "un arbre, deux arbres"}
+            },
+            {
+              "text": "un câine, doi câini",
+              "translation": {"en": "a dog, two dogs", "fr": "un chien, deux chiens"}
+            },
+            {
+              "text": "un student, doi studenți",
+              "translation": {"en": "a student, two students", "fr": "un étudiant, deux étudiants"}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Feminine: -e or -i", "fr": "Féminin : -e ou -i", "ro": "Feminin: -e sau -i"},
+          "body": {
+            "en": "-ă becomes -e: casă → case, fată → fete (a → e).\n-e becomes -i: carte → cărți (a → ă, t → ț).\n-ea becomes -ele: stea → stele.\noa often becomes o: școală → școli.",
+            "fr": "-ă devient -e : casă → case, fată → fete (a → e).\n-e devient -i : carte → cărți (a → ă, t → ț).\n-ea devient -ele : stea → stele.\noa devient souvent o : școală → școli.",
+            "ro": "-ă devine -e: casă → case, fată → fete (a → e).\n-e devine -i: carte → cărți (a → ă, t → ț).\n-ea devine -ele: stea → stele.\noa devine adesea o: școală → școli."
+          },
+          "examples": [
+            {
+              "text": "o casă, două case",
+              "translation": {"en": "a house, two houses", "fr": "une maison, deux maisons"}
+            },
+            {
+              "text": "o fată, două fete",
+              "translation": {"en": "a girl, two girls", "fr": "une fille, deux filles"}
+            },
+            {
+              "text": "o carte, două cărți",
+              "translation": {"en": "a book, two books", "fr": "un livre, deux livres"}
+            },
+            {
+              "text": "o stea, două stele",
+              "translation": {"en": "a star, two stars", "fr": "une étoile, deux étoiles"}
+            },
+            {
+              "text": "o școală, două școli",
+              "translation": {"en": "a school, two schools", "fr": "une école, deux écoles"}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Neuter: -uri or -e", "fr": "Neutre : -uri ou -e", "ro": "Neutru: -uri sau -e"},
+          "body": {"en": "tren → trenuri, scaun → scaune, oraș → orașe."},
+          "examples": [
+            {
+              "text": "un tren, două trenuri",
+              "translation": {"en": "a train, two trains", "fr": "un train, deux trains"}
+            },
+            {
+              "text": "un oraș, două orașe",
+              "translation": {"en": "a city, two cities", "fr": "une ville, deux villes"}
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and French",
+            "fr": "Comparaison avec le français et l'anglais",
+            "ro": "Comparație cu engleza și franceza"
+          },
+          "body": {
+            "en": "In English, the plural is mostly a regular -s; in French, the plural -s is silent. In Romanian, the plural is always heard and often changes the vowel or consonant of the stem: learn the plural together with the word.",
+            "fr": "En français, le -s du pluriel est muet ; en anglais, le pluriel est presque toujours régulier. En roumain, le pluriel s'entend toujours et modifie souvent la voyelle ou la consonne du radical : apprends le pluriel avec le mot.",
+            "ro": "În engleză, pluralul se formează aproape mereu regulat cu -s; în franceză, -s de plural nu se pronunță. În română, pluralul se aude întotdeauna și schimbă adesea vocala sau consoana rădăcinii: învață pluralul odată cu cuvântul."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-04-definite-article",
+      "order": 4,
+      "title": {"en": "The definite article", "fr": "L'article défini", "ro": "Articolul hotărât"},
+      "summary": {
+        "en": "\"The\" is glued to the end of the noun.",
+        "fr": "« Le, la » se collent à la fin du nom.",
+        "ro": "Articolul hotărât se adaugă la sfârșitul substantivului."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Masculine and neuter: -ul, -le",
+            "fr": "Masculin et neutre : -ul, -le",
+            "ro": "Masculin și neutru: -ul, -le"
+          },
+          "body": {
+            "en": "A noun ending in a consonant takes -ul: băiat → băiatul, tren → trenul.\nA noun ending in -e takes -le: frate → fratele, nume → numele.",
+            "fr": "Un nom terminé par une consonne prend -ul : băiat → băiatul, tren → trenul.\nUn nom terminé par -e prend -le : frate → fratele, nume → numele.",
+            "ro": "Substantivele terminate în consoană primesc -ul: băiat → băiatul, tren → trenul.\nCele terminate în -e primesc -le: frate → fratele, nume → numele."
+          },
+          "examples": [
+            {"text": "băiatul", "translation": {"en": "the boy", "fr": "le garçon"}},
+            {"text": "trenul", "translation": {"en": "the train", "fr": "le train"}},
+            {"text": "fratele", "translation": {"en": "the brother", "fr": "le frère"}}
+          ]
+        },
+        {
+          "heading": {"en": "Feminine: -a", "fr": "Féminin : -a", "ro": "Feminin: -a"},
+          "body": {
+            "en": "The final -ă becomes -a: casă → casa. A final -e becomes -ea: carte → cartea.\nNouns in -ea take -ua: cafea → cafeaua.",
+            "fr": "Le -ă final devient -a : casă → casa. Un -e final devient -ea : carte → cartea.\nLes noms en -ea prennent -ua : cafea → cafeaua.",
+            "ro": "-ă final devine -a: casă → casa. -e final devine -ea: carte → cartea.\nSubstantivele în -ea primesc -ua: cafea → cafeaua."
+          },
+          "examples": [
+            {"text": "casa", "translation": {"en": "the house", "fr": "la maison"}},
+            {"text": "cartea", "translation": {"en": "the book", "fr": "le livre"}},
+            {"text": "cafeaua", "translation": {"en": "the coffee", "fr": "le café"}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "Compared with English and French",
+            "fr": "Comparaison avec le français et l'anglais",
+            "ro": "Comparație cu engleza și franceza"
+          },
+          "body": {
+            "en": "English and French put the article before the noun. In Romanian, \"a\" stays in front (un tren, o casă) but \"the\" is an ending: listen for the end of the word.",
+            "fr": "Le français et l'anglais placent l'article devant le nom. En roumain, l'article indéfini reste devant (un tren, o casă), mais l'article défini est une terminaison : écoute la fin du mot.",
+            "ro": "Engleza și franceza pun articolul înaintea substantivului. În română, articolul nehotărât stă înainte (un tren, o casă), dar cel hotărât este o terminație."
+          }
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-05-a-fi",
+      "order": 5,
+      "title": {"en": "The verb a fi (to be)", "fr": "Le verbe a fi (être)", "ro": "Verbul a fi"},
+      "summary": {
+        "en": "Personal pronouns and the present of \"to be\".",
+        "fr": "Les pronoms personnels et le présent d'« être ».",
+        "ro": "Pronumele personale și prezentul verbului a fi."
+      },
+      "sections": [
+        {
+          "heading": {"en": "The present", "fr": "Le présent", "ro": "Prezentul"},
+          "body": {"en": "eu sunt, tu ești, el / ea este (e)\nnoi suntem, voi sunteți, ei / ele sunt"},
+          "examples": [
+            {"text": "Eu sunt Ana.", "translation": {"en": "I am Ana.", "fr": "Je suis Ana."}},
+            {"text": "Tu ești acasă?", "translation": {"en": "Are you at home?", "fr": "Tu es à la maison ?"}},
+            {
+              "text": "Ea este profesoară.",
+              "translation": {"en": "She is a teacher.", "fr": "Elle est professeure."}
+            },
+            {
+              "text": "Noi suntem prieteni.",
+              "translation": {"en": "We are friends.", "fr": "Nous sommes amis."}
+            }
+          ]
+        },
+        {
+          "heading": {"en": "Dropping the pronoun", "fr": "Le pronom omis", "ro": "Pronumele omis"},
+          "body": {
+            "en": "The verb ending already says who: the pronoun is usually left out, and kept only for emphasis. \"Sunt din Franța\" = I am from France.",
+            "fr": "La terminaison du verbe indique déjà la personne : le pronom est souvent omis et ne sert qu'à insister. « Sunt din Franța » = Je suis de France.",
+            "ro": "Terminația verbului arată deja persoana, așa că pronumele se omite de obicei și se folosește doar pentru accent."
+          },
+          "examples": [
+            {
+              "text": "Sunt din Franța.",
+              "translation": {"en": "I am from France.", "fr": "Je suis de France."}
+            },
+            {"text": "Suntem obosiți.", "translation": {"en": "We are tired.", "fr": "Nous sommes fatigués."}},
+            {"text": "E bine.", "translation": {"en": "It's fine.", "fr": "C'est bien."}}
+          ]
+        }
+      ],
+      "review": "ai"
+    },
+    {
+      "id": "ro-06-numbers",
+      "order": 6,
+      "title": {"en": "Numbers and prices", "fr": "Les nombres et les prix", "ro": "Numerele și prețurile"},
+      "summary": {
+        "en": "Counting to twenty and asking how much.",
+        "fr": "Compter jusqu'à vingt et demander combien.",
+        "ro": "Numărăm până la douăzeci și întrebăm cât costă."
+      },
+      "sections": [
+        {
+          "heading": {"en": "One to ten", "fr": "De un à dix", "ro": "De la unu la zece"},
+          "body": {
+            "en": "unu, doi, trei, patru, cinci, șase, șapte, opt, nouă, zece.\nBefore a noun, one and two agree: un leu, o bancnotă; doi lei, două mere.",
+            "fr": "unu, doi, trei, patru, cinci, șase, șapte, opt, nouă, zece.\nDevant un nom, un et deux s'accordent : un leu, o bancnotă ; doi lei, două mere.",
+            "ro": "unu, doi, trei, patru, cinci, șase, șapte, opt, nouă, zece.\nÎnaintea unui substantiv, unu și doi se acordă: un leu, o bancnotă; doi lei, două mere."
+          },
+          "examples": [
+            {"text": "trei", "translation": {"en": "three", "fr": "trois"}},
+            {"text": "șapte", "translation": {"en": "seven", "fr": "sept"}},
+            {"text": "doi lei", "translation": {"en": "two lei", "fr": "deux lei"}},
+            {"text": "două mere", "translation": {"en": "two apples", "fr": "deux pommes"}}
+          ]
+        },
+        {
+          "heading": {
+            "en": "From twenty: add de",
+            "fr": "À partir de vingt : ajoutez de",
+            "ro": "De la douăzeci: se adaugă de"
+          },
+          "body": {
+            "en": "From 20 on, de comes between the number and the noun: douăzeci de lei, o sută de grame.",
+            "fr": "À partir de 20, on place de entre le nombre et le nom : douăzeci de lei, o sută de grame.",
+            "ro": "De la 20 în sus, între numeral și substantiv apare de: douăzeci de lei, o sută de grame."
+          },
+          "examples": [
+            {"text": "Cât costă?", "translation": {"en": "How much is it?", "fr": "Combien ça coûte ?"}},
+            {"text": "Douăzeci de lei.", "translation": {"en": "Twenty lei.", "fr": "Vingt lei."}},
+            {"text": "Cincizeci de lei.", "translation": {"en": "Fifty lei.", "fr": "Cinquante lei."}}
+          ]
+        }
+      ],
+      "review": "ai"
+    }
+  ]
+}
