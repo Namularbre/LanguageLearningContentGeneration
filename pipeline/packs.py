@@ -81,6 +81,10 @@ def check(pack: dict) -> list[str]:
         if words == 0:
             problems.append(f"{text['id']} has no word")
 
+    for lemma in pack.get("lemmas", []):
+        for example in lemma.get("examples", []):
+            problems += _check_example(lemma["id"], example, set(lemma_ids), others)
+
     for lemma_id in lemma_ids:
         if lemma_id not in used:
             problems.append(f"lemma {lemma_id} is never used")
@@ -99,6 +103,26 @@ def romanian_strings(pack: dict) -> list[str]:
         found.append(text["title"])
         found += ["".join(t["text"] for t in s["tokens"]) for s in text["sentences"]]
     found += [lemma["text"] for lemma in pack.get("lemmas", [])]
+    found += ["".join(t["text"] for t in e["tokens"]) for lemma in pack.get("lemmas", []) for e in lemma.get("examples", [])]
     for lesson in pack.get("lessons", []):
         found += [e["text"] for section in lesson["sections"] for e in section.get("examples", [])]
     return found
+
+
+def _check_example(lemma_id: str, example: dict, known: set[str], others: set[str]) -> list[str]:
+    """An example sentence of a lemma (from Tatoeba): uses the lemma, credits its source."""
+    where = f"example of {lemma_id}"
+    problems = []
+    lemmas = [t["lemma"] for t in example["tokens"] if "lemma" in t]
+    if lemma_id not in lemmas:
+        problems.append(f"{where} does not use the word")
+    problems += [f"{where}: unknown lemma {l}" for l in lemmas if l not in known]
+    if not example.get("translation") or not set(example["translation"]) <= others:
+        problems.append(f"{where}: translations in {sorted(example.get('translation', {}))}, expected some of {sorted(others)}")
+    source = example.get("source", {})
+    if not (source.get("tatoeba") and source.get("author") and source.get("license")):
+        problems.append(f"{where}: source, author or licence missing (needed for the credits)")
+    audio = example.get("audio")
+    if audio is not None and not (audio.get("url") and audio.get("author") and audio.get("license")):
+        problems.append(f"{where}: audio without author or licence")
+    return problems
